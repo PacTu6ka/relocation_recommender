@@ -42,7 +42,7 @@ C_MUTED     = "#7a7a8a"
 
 CYBERPUNK_CSS = """
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
 
 /* ── global ──────────────────────────────────────────────────────────── */
 html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {
@@ -51,7 +51,7 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {
         radial-gradient(ellipse at 90% 100%, rgba(0,240,255,0.07) 0%, transparent 45%),
         linear-gradient(180deg, #08080f 0%, #12121d 100%) !important;
     color: #d0d0d0 !important;
-    font-family: 'Rajdhani', sans-serif !important;
+    font-family: 'Inter', sans-serif !important;
 }
 
 /* scanline overlay */
@@ -80,14 +80,14 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {
 [data-testid="stSidebar"] h2,
 [data-testid="stSidebar"] h3 {
     color: #fcee0c !important;
-    font-family: 'Share Tech Mono', monospace !important;
+    font-family: 'Exo 2', sans-serif !important;
     letter-spacing: 0.05em;
     text-shadow: 0 0 6px rgba(252,238,12,0.5);
 }
 
 /* ── headings (main area) ────────────────────────────────────────────── */
 h1, h2, h3, h4, h5 {
-    font-family: 'Share Tech Mono', monospace !important;
+    font-family: 'Exo 2', sans-serif !important;
     color: #fcee0c !important;
     text-transform: uppercase;
     letter-spacing: 0.04em;
@@ -108,7 +108,7 @@ h2, h3 {
 [data-testid="stMarkdownContainer"] li,
 [data-testid="stMarkdownContainer"] span,
 [data-testid="stCaption"] {
-    font-family: 'Rajdhani', sans-serif !important;
+    font-family: 'Inter', sans-serif !important;
     color: #c0c0c8 !important;
     font-size: 1.02rem !important;
     line-height: 1.45 !important;
@@ -117,7 +117,7 @@ h2, h3 {
 
 /* ── sliders ─────────────────────────────────────────────────────────── */
 [data-testid="stSlider"] label {
-    font-family: 'Share Tech Mono', monospace !important;
+    font-family: 'Exo 2', sans-serif !important;
     color: #00f0ff !important;
     text-transform: uppercase;
     letter-spacing: 0.04em;
@@ -142,7 +142,7 @@ h2, h3 {
 }
 [data-testid="stMultiSelect"] label,
 [data-testid="stSelectbox"] label {
-    font-family: 'Share Tech Mono', monospace !important;
+    font-family: 'Exo 2', sans-serif !important;
     color: #00f0ff !important;
     text-transform: uppercase;
     letter-spacing: 0.04em;
@@ -153,7 +153,7 @@ h2, h3 {
     border: 1px solid #fcee0c !important;
     border-radius: 0 !important;
     color: #fcee0c !important;
-    font-family: 'Share Tech Mono', monospace !important;
+    font-family: 'Exo 2', sans-serif !important;
 }
 
 /* ── metrics cards ───────────────────────────────────────────────────── */
@@ -166,14 +166,14 @@ h2, h3 {
 }
 [data-testid="stMetricLabel"] {
     color: #7a7a8a !important;
-    font-family: 'Share Tech Mono', monospace !important;
+    font-family: 'Exo 2', sans-serif !important;
     font-size: 0.72rem !important;
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
 [data-testid="stMetricValue"] {
     color: #fcee0c !important;
-    font-family: 'Share Tech Mono', monospace !important;
+    font-family: 'Exo 2', sans-serif !important;
     text-shadow: 0 0 6px rgba(252,238,12,0.5);
 }
 
@@ -184,7 +184,7 @@ h2, h3 {
     border-left: 4px solid #00f0ff !important;
     border-radius: 0 !important;
     color: #c0c0c8 !important;
-    font-family: 'Share Tech Mono', monospace !important;
+    font-family: 'JetBrains Mono', monospace !important;
     box-shadow: 0 0 14px rgba(0,240,255,0.08);
 }
 
@@ -196,7 +196,7 @@ h2, h3 {
 [data-testid="stDataFrame"] [role="columnheader"] {
     background: #1a1a28 !important;
     color: #fcee0c !important;
-    font-family: 'Share Tech Mono', monospace !important;
+    font-family: 'Exo 2', sans-serif !important;
     text-transform: uppercase;
     border-bottom: 2px solid #fcee0c !important;
 }
@@ -217,7 +217,7 @@ hr {
     box-shadow: 0 0 10px rgba(0,240,255,0.08);
 }
 [data-testid="stExpander"] summary {
-    font-family: 'Share Tech Mono', monospace !important;
+    font-family: 'Exo 2', sans-serif !important;
     color: #00f0ff !important;
     text-transform: uppercase;
     letter-spacing: 0.04em;
@@ -230,7 +230,7 @@ hr {
     border-left: 5px solid #ff003c !important;
     border-radius: 0 !important;
     color: #ff003c !important;
-    font-family: 'Share Tech Mono', monospace !important;
+    font-family: 'Exo 2', sans-serif !important;
 }
 
 /* ── tooltip help icon ───────────────────────────────────────────────── */
@@ -238,7 +238,7 @@ hr {
 
 /* ── main title ──────────────────────────────────────────────────────── */
 .cyberpunk-title {
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Exo 2', sans-serif;
     font-size: 3.4rem;
     color: #fcee0c;
     letter-spacing: 0.08em;
@@ -251,7 +251,7 @@ hr {
     line-height: 1;
 }
 .cyberpunk-subtitle {
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Exo 2', sans-serif;
     font-size: 0.9rem;
     color: #00f0ff;
     letter-spacing: 0.15em;
@@ -259,7 +259,7 @@ hr {
     text-transform: uppercase;
 }
 .cyberpunk-info {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Inter', sans-serif;
     border: 1px solid #00f0ff66;
     border-left: 4px solid #00f0ff;
     padding: 14px 18px;
@@ -498,11 +498,11 @@ def _build_choropleth(df: pd.DataFrame, rec: pd.DataFrame) -> go.Figure:
     fig.update_layout(
         margin=dict(l=0, r=0, t=0, b=0),
         coloraxis_colorbar=dict(
-            title=dict(text="ОЦЕНКА", font=dict(color=C_YELLOW, family="Share Tech Mono", size=12)),
+            title=dict(text="ОЦЕНКА", font=dict(color=C_YELLOW, family="Exo 2", size=12)),
             thickness=14,
             len=0.7,
             tickformat=".2f",
-            tickfont=dict(color=C_CYAN, family="Share Tech Mono", size=10),
+            tickfont=dict(color=C_CYAN, family="Exo 2", size=10),
             outlinecolor=C_YELLOW,
             outlinewidth=1,
         ),
@@ -524,7 +524,7 @@ def _build_choropleth(df: pd.DataFrame, rec: pd.DataFrame) -> go.Figure:
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
         height=460,
-        font=dict(color=C_TEXT, family="Rajdhani"),
+        font=dict(color=C_TEXT, family="Inter"),
     )
     return fig
 
@@ -562,12 +562,12 @@ def _build_radar(iso3: str, df: pd.DataFrame) -> go.Figure:
             radialaxis=dict(
                 visible=True,
                 range=[0, 1],
-                tickfont=dict(size=9, color=C_MUTED, family="Share Tech Mono"),
+                tickfont=dict(size=9, color=C_MUTED, family="Exo 2"),
                 gridcolor="rgba(0,240,255,0.2)",
                 linecolor="rgba(0,240,255,0.4)",
             ),
             angularaxis=dict(
-                tickfont=dict(size=10, color=C_CYAN, family="Share Tech Mono"),
+                tickfont=dict(size=10, color=C_CYAN, family="Exo 2"),
                 linecolor="rgba(252,238,12,0.4)",
                 gridcolor="rgba(252,238,12,0.15)",
             ),
@@ -576,7 +576,7 @@ def _build_radar(iso3: str, df: pd.DataFrame) -> go.Figure:
         showlegend=False,
         title=dict(
             text=f"// {country_name.upper()}",
-            font=dict(size=18, color=C_YELLOW, family="Share Tech Mono"),
+            font=dict(size=18, color=C_YELLOW, family="Exo 2"),
             x=0.5,
         ),
         margin=dict(l=50, r=50, t=80, b=40),
@@ -978,7 +978,7 @@ def main() -> None:
             margin=dict(l=0, r=20, t=10, b=10),
             paper_bgcolor="rgba(0,0,0,0)",
             plot_bgcolor="rgba(8,8,15,0.6)",
-            font=dict(color=C_TEXT, family="Share Tech Mono"),
+            font=dict(color=C_TEXT, family="Exo 2"),
             xaxis=dict(gridcolor="rgba(0,240,255,0.15)", color=C_CYAN),
             yaxis=dict(gridcolor="rgba(0,240,255,0.15)", color=C_CYAN),
         )
