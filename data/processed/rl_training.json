@@ -1,0 +1,7042 @@
+{
+  "arms": [
+    "baseline",
+    "boost_safety",
+    "boost_health",
+    "boost_cost",
+    "boost_visa",
+    "boost_eu",
+    "damp_gdp",
+    "boost_clean"
+  ],
+  "history": [
+    {
+      "iter": 0,
+      "ideal": "CHE",
+      "arm": "baseline",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 1,
+      "ideal": "CHE",
+      "arm": "boost_safety",
+      "reward": 0.6309,
+      "baseline": 1.0
+    },
+    {
+      "iter": 2,
+      "ideal": "URY",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 3,
+      "ideal": "KOR",
+      "arm": "boost_safety",
+      "reward": 0.4307,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 4,
+      "ideal": "ECU",
+      "arm": "boost_safety",
+      "reward": 0.4307,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 5,
+      "ideal": "MNE",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 6,
+      "ideal": "TWN",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 7,
+      "ideal": "COL",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 8,
+      "ideal": "BRA",
+      "arm": "boost_visa",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 9,
+      "ideal": "ARM",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 10,
+      "ideal": "IDN",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 11,
+      "ideal": "MYS",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 12,
+      "ideal": "MNE",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 13,
+      "ideal": "CAN",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 14,
+      "ideal": "MEX",
+      "arm": "boost_clean",
+      "reward": 0.3333,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 15,
+      "ideal": "SRB",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 16,
+      "ideal": "MLT",
+      "arm": "boost_visa",
+      "reward": 0.3562,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 17,
+      "ideal": "ISR",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 18,
+      "ideal": "GEO",
+      "arm": "boost_cost",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 19,
+      "ideal": "ALB",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 20,
+      "ideal": "SRB",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.0
+    },
+    {
+      "iter": 21,
+      "ideal": "FIN",
+      "arm": "baseline",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 22,
+      "ideal": "CHE",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 23,
+      "ideal": "BGR",
+      "arm": "damp_gdp",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 24,
+      "ideal": "ZAF",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 25,
+      "ideal": "TWN",
+      "arm": "damp_gdp",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 26,
+      "ideal": "BEL",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.301
+    },
+    {
+      "iter": 27,
+      "ideal": "HRV",
+      "arm": "damp_gdp",
+      "reward": 0.301,
+      "baseline": 0.301
+    },
+    {
+      "iter": 28,
+      "ideal": "BGR",
+      "arm": "boost_eu",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 29,
+      "ideal": "ARG",
+      "arm": "boost_eu",
+      "reward": 0.3333,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 30,
+      "ideal": "VNM",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 31,
+      "ideal": "DNK",
+      "arm": "boost_eu",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 32,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 33,
+      "ideal": "BGR",
+      "arm": "boost_eu",
+      "reward": 0.3333,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 34,
+      "ideal": "MNE",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 35,
+      "ideal": "CYP",
+      "arm": "damp_gdp",
+      "reward": 0.3562,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 36,
+      "ideal": "FIN",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 37,
+      "ideal": "COL",
+      "arm": "boost_health",
+      "reward": 0.301,
+      "baseline": 0.0
+    },
+    {
+      "iter": 38,
+      "ideal": "IRL",
+      "arm": "boost_eu",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 39,
+      "ideal": "ARM",
+      "arm": "damp_gdp",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 40,
+      "ideal": "LUX",
+      "arm": "boost_eu",
+      "reward": 0.4307,
+      "baseline": 1.0
+    },
+    {
+      "iter": 41,
+      "ideal": "PER",
+      "arm": "boost_safety",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 42,
+      "ideal": "ESP",
+      "arm": "boost_safety",
+      "reward": 0.3869,
+      "baseline": 0.5
+    },
+    {
+      "iter": 43,
+      "ideal": "PRT",
+      "arm": "baseline",
+      "reward": 0.3155,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 44,
+      "ideal": "ZAF",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 45,
+      "ideal": "CZE",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 46,
+      "ideal": "GEO",
+      "arm": "boost_visa",
+      "reward": 0.3562,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 47,
+      "ideal": "BRA",
+      "arm": "boost_safety",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 48,
+      "ideal": "IRL",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 49,
+      "ideal": "IRL",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 50,
+      "ideal": "EST",
+      "arm": "damp_gdp",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 51,
+      "ideal": "HUN",
+      "arm": "damp_gdp",
+      "reward": 0.3155,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 52,
+      "ideal": "BEL",
+      "arm": "boost_safety",
+      "reward": 0.6309,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 53,
+      "ideal": "VNM",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 54,
+      "ideal": "MAR",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 55,
+      "ideal": "IRL",
+      "arm": "damp_gdp",
+      "reward": 0.3333,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 56,
+      "ideal": "PHL",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 57,
+      "ideal": "MEX",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 58,
+      "ideal": "PRT",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 59,
+      "ideal": "MAR",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 60,
+      "ideal": "KOR",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 61,
+      "ideal": "GEO",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 62,
+      "ideal": "HRV",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 63,
+      "ideal": "LVA",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 64,
+      "ideal": "NLD",
+      "arm": "boost_cost",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 65,
+      "ideal": "URY",
+      "arm": "boost_safety",
+      "reward": 1.0,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 66,
+      "ideal": "SWE",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 67,
+      "ideal": "ROU",
+      "arm": "damp_gdp",
+      "reward": 0.3562,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 68,
+      "ideal": "VNM",
+      "arm": "boost_visa",
+      "reward": 1.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 69,
+      "ideal": "NLD",
+      "arm": "boost_health",
+      "reward": 0.3333,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 70,
+      "ideal": "IDN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 71,
+      "ideal": "TWN",
+      "arm": "boost_clean",
+      "reward": 0.3869,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 72,
+      "ideal": "JPN",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 73,
+      "ideal": "FIN",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 74,
+      "ideal": "ALB",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 75,
+      "ideal": "PHL",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 76,
+      "ideal": "LUX",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 77,
+      "ideal": "URY",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 78,
+      "ideal": "PRT",
+      "arm": "boost_health",
+      "reward": 0.2891,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 79,
+      "ideal": "PAN",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 80,
+      "ideal": "CZE",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 81,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 82,
+      "ideal": "PER",
+      "arm": "boost_safety",
+      "reward": 1.0,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 83,
+      "ideal": "IDN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 84,
+      "ideal": "POL",
+      "arm": "damp_gdp",
+      "reward": 0.3869,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 85,
+      "ideal": "ZAF",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 86,
+      "ideal": "SGP",
+      "arm": "baseline",
+      "reward": 0.3155,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 87,
+      "ideal": "ESP",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 88,
+      "ideal": "MYS",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 89,
+      "ideal": "AUS",
+      "arm": "boost_safety",
+      "reward": 0.6309,
+      "baseline": 1.0
+    },
+    {
+      "iter": 90,
+      "ideal": "COL",
+      "arm": "boost_safety",
+      "reward": 0.301,
+      "baseline": 0.0
+    },
+    {
+      "iter": 91,
+      "ideal": "SVN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 92,
+      "ideal": "JPN",
+      "arm": "boost_cost",
+      "reward": 0.2891,
+      "baseline": 0.0
+    },
+    {
+      "iter": 93,
+      "ideal": "ARE",
+      "arm": "boost_health",
+      "reward": 0.4307,
+      "baseline": 0.5
+    },
+    {
+      "iter": 94,
+      "ideal": "THA",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 95,
+      "ideal": "VNM",
+      "arm": "boost_health",
+      "reward": 0.301,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 96,
+      "ideal": "IDN",
+      "arm": "boost_visa",
+      "reward": 0.301,
+      "baseline": 0.0
+    },
+    {
+      "iter": 97,
+      "ideal": "AUT",
+      "arm": "boost_eu",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 98,
+      "ideal": "KOR",
+      "arm": "baseline",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 99,
+      "ideal": "ROU",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 100,
+      "ideal": "USA",
+      "arm": "boost_safety",
+      "reward": 0.4307,
+      "baseline": 0.5
+    },
+    {
+      "iter": 101,
+      "ideal": "ROU",
+      "arm": "boost_eu",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 102,
+      "ideal": "ARE",
+      "arm": "baseline",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 103,
+      "ideal": "NOR",
+      "arm": "boost_visa",
+      "reward": 0.3155,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 104,
+      "ideal": "USA",
+      "arm": "boost_safety",
+      "reward": 0.5,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 105,
+      "ideal": "URY",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 106,
+      "ideal": "MLT",
+      "arm": "boost_safety",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 107,
+      "ideal": "TWN",
+      "arm": "boost_health",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 108,
+      "ideal": "PHL",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 109,
+      "ideal": "CAN",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.301
+    },
+    {
+      "iter": 110,
+      "ideal": "PRT",
+      "arm": "boost_health",
+      "reward": 0.6309,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 111,
+      "ideal": "ALB",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 112,
+      "ideal": "PAN",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 113,
+      "ideal": "GBR",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 114,
+      "ideal": "PRT",
+      "arm": "boost_health",
+      "reward": 0.4307,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 115,
+      "ideal": "ZAF",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 116,
+      "ideal": "CHL",
+      "arm": "boost_health",
+      "reward": 0.3333,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 117,
+      "ideal": "PRT",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 118,
+      "ideal": "GEO",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 119,
+      "ideal": "IDN",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 120,
+      "ideal": "LUX",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 121,
+      "ideal": "CHL",
+      "arm": "boost_safety",
+      "reward": 0.3155,
+      "baseline": 0.0
+    },
+    {
+      "iter": 122,
+      "ideal": "IDN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 123,
+      "ideal": "URY",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 124,
+      "ideal": "ARE",
+      "arm": "baseline",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 125,
+      "ideal": "PHL",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 126,
+      "ideal": "URY",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 127,
+      "ideal": "VNM",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 128,
+      "ideal": "LUX",
+      "arm": "boost_health",
+      "reward": 0.301,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 129,
+      "ideal": "KOR",
+      "arm": "boost_health",
+      "reward": 0.5,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 130,
+      "ideal": "SGP",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 131,
+      "ideal": "NLD",
+      "arm": "boost_eu",
+      "reward": 0.3869,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 132,
+      "ideal": "CHL",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 133,
+      "ideal": "HUN",
+      "arm": "boost_eu",
+      "reward": 0.3333,
+      "baseline": 0.301
+    },
+    {
+      "iter": 134,
+      "ideal": "URY",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 135,
+      "ideal": "SWE",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 136,
+      "ideal": "SWE",
+      "arm": "boost_visa",
+      "reward": 0.4307,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 137,
+      "ideal": "LUX",
+      "arm": "boost_eu",
+      "reward": 0.3333,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 138,
+      "ideal": "TWN",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 139,
+      "ideal": "TWN",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 140,
+      "ideal": "CZE",
+      "arm": "boost_eu",
+      "reward": 0.3869,
+      "baseline": 0.5
+    },
+    {
+      "iter": 141,
+      "ideal": "DNK",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.301
+    },
+    {
+      "iter": 142,
+      "ideal": "PHL",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 143,
+      "ideal": "BRA",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 144,
+      "ideal": "KOR",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 145,
+      "ideal": "MNE",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 146,
+      "ideal": "IRL",
+      "arm": "boost_eu",
+      "reward": 0.3869,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 147,
+      "ideal": "SRB",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 148,
+      "ideal": "DEU",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 149,
+      "ideal": "URY",
+      "arm": "boost_safety",
+      "reward": 0.5,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 150,
+      "ideal": "DEU",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 151,
+      "ideal": "HRV",
+      "arm": "boost_eu",
+      "reward": 0.301,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 152,
+      "ideal": "LVA",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 153,
+      "ideal": "CYP",
+      "arm": "baseline",
+      "reward": 0.3869,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 154,
+      "ideal": "MLT",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 155,
+      "ideal": "IRL",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 156,
+      "ideal": "DNK",
+      "arm": "damp_gdp",
+      "reward": 0.4307,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 157,
+      "ideal": "MYS",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 158,
+      "ideal": "VNM",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 159,
+      "ideal": "ARE",
+      "arm": "boost_health",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 160,
+      "ideal": "DNK",
+      "arm": "baseline",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 161,
+      "ideal": "USA",
+      "arm": "boost_safety",
+      "reward": 0.4307,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 162,
+      "ideal": "GEO",
+      "arm": "boost_safety",
+      "reward": 0.3869,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 163,
+      "ideal": "EST",
+      "arm": "baseline",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 164,
+      "ideal": "NZL",
+      "arm": "boost_eu",
+      "reward": 0.2891,
+      "baseline": 0.0
+    },
+    {
+      "iter": 165,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.4307,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 166,
+      "ideal": "GBR",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 167,
+      "ideal": "CAN",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 168,
+      "ideal": "URY",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 169,
+      "ideal": "GBR",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 170,
+      "ideal": "NOR",
+      "arm": "baseline",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 171,
+      "ideal": "FIN",
+      "arm": "baseline",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 172,
+      "ideal": "CHL",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 173,
+      "ideal": "SRB",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 174,
+      "ideal": "COL",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 175,
+      "ideal": "ALB",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 176,
+      "ideal": "SRB",
+      "arm": "boost_visa",
+      "reward": 1.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 177,
+      "ideal": "LUX",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 178,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 179,
+      "ideal": "GEO",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 180,
+      "ideal": "IDN",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 181,
+      "ideal": "ISR",
+      "arm": "baseline",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 182,
+      "ideal": "KOR",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 1.0
+    },
+    {
+      "iter": 183,
+      "ideal": "SWE",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 184,
+      "ideal": "HUN",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 185,
+      "ideal": "MEX",
+      "arm": "boost_health",
+      "reward": 0.3333,
+      "baseline": 0.301
+    },
+    {
+      "iter": 186,
+      "ideal": "ZAF",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 187,
+      "ideal": "POL",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 188,
+      "ideal": "CAN",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 189,
+      "ideal": "USA",
+      "arm": "boost_safety",
+      "reward": 0.5,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 190,
+      "ideal": "SGP",
+      "arm": "damp_gdp",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 191,
+      "ideal": "GBR",
+      "arm": "boost_visa",
+      "reward": 0.3562,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 192,
+      "ideal": "SVN",
+      "arm": "boost_visa",
+      "reward": 0.3562,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 193,
+      "ideal": "LTU",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 194,
+      "ideal": "GBR",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 195,
+      "ideal": "MEX",
+      "arm": "boost_health",
+      "reward": 0.5,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 196,
+      "ideal": "HUN",
+      "arm": "boost_visa",
+      "reward": 0.3333,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 197,
+      "ideal": "ARG",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 198,
+      "ideal": "CAN",
+      "arm": "baseline",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 199,
+      "ideal": "GBR",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 200,
+      "ideal": "SGP",
+      "arm": "baseline",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 201,
+      "ideal": "ALB",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 202,
+      "ideal": "MNE",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 203,
+      "ideal": "ISR",
+      "arm": "baseline",
+      "reward": 0.3869,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 204,
+      "ideal": "SVN",
+      "arm": "damp_gdp",
+      "reward": 0.4307,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 205,
+      "ideal": "JPN",
+      "arm": "boost_visa",
+      "reward": 0.3869,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 206,
+      "ideal": "DEU",
+      "arm": "boost_safety",
+      "reward": 0.2891,
+      "baseline": 0.0
+    },
+    {
+      "iter": 207,
+      "ideal": "PHL",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 208,
+      "ideal": "ROU",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 209,
+      "ideal": "PAN",
+      "arm": "boost_health",
+      "reward": 0.301,
+      "baseline": 0.0
+    },
+    {
+      "iter": 210,
+      "ideal": "CYP",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 211,
+      "ideal": "NOR",
+      "arm": "baseline",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 212,
+      "ideal": "IDN",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 213,
+      "ideal": "DEU",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 214,
+      "ideal": "LVA",
+      "arm": "boost_safety",
+      "reward": 0.3333,
+      "baseline": 0.5
+    },
+    {
+      "iter": 215,
+      "ideal": "MLT",
+      "arm": "boost_eu",
+      "reward": 0.3333,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 216,
+      "ideal": "CYP",
+      "arm": "boost_cost",
+      "reward": 0.4307,
+      "baseline": 0.5
+    },
+    {
+      "iter": 217,
+      "ideal": "ARG",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 218,
+      "ideal": "HRV",
+      "arm": "boost_cost",
+      "reward": 0.5,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 219,
+      "ideal": "MYS",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 220,
+      "ideal": "AUT",
+      "arm": "baseline",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 221,
+      "ideal": "BRA",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 222,
+      "ideal": "SVN",
+      "arm": "boost_eu",
+      "reward": 0.301,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 223,
+      "ideal": "ECU",
+      "arm": "boost_health",
+      "reward": 0.6309,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 224,
+      "ideal": "ESP",
+      "arm": "boost_health",
+      "reward": 0.3869,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 225,
+      "ideal": "NOR",
+      "arm": "baseline",
+      "reward": 0.4307,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 226,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 227,
+      "ideal": "EST",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 228,
+      "ideal": "PHL",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 229,
+      "ideal": "THA",
+      "arm": "boost_health",
+      "reward": 0.3562,
+      "baseline": 0.0
+    },
+    {
+      "iter": 230,
+      "ideal": "MAR",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 231,
+      "ideal": "CAN",
+      "arm": "damp_gdp",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 232,
+      "ideal": "ZAF",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 233,
+      "ideal": "NLD",
+      "arm": "baseline",
+      "reward": 0.301,
+      "baseline": 0.301
+    },
+    {
+      "iter": 234,
+      "ideal": "PRT",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 235,
+      "ideal": "NOR",
+      "arm": "boost_cost",
+      "reward": 0.4307,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 236,
+      "ideal": "PAN",
+      "arm": "boost_health",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 237,
+      "ideal": "NZL",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 238,
+      "ideal": "POL",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 239,
+      "ideal": "ROU",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 240,
+      "ideal": "ECU",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 241,
+      "ideal": "VNM",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 242,
+      "ideal": "NOR",
+      "arm": "boost_health",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 243,
+      "ideal": "CYP",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 244,
+      "ideal": "TWN",
+      "arm": "boost_health",
+      "reward": 0.3562,
+      "baseline": 0.301
+    },
+    {
+      "iter": 245,
+      "ideal": "THA",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 246,
+      "ideal": "ARM",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 247,
+      "ideal": "CZE",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 248,
+      "ideal": "AUT",
+      "arm": "baseline",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 249,
+      "ideal": "HRV",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 250,
+      "ideal": "GBR",
+      "arm": "boost_safety",
+      "reward": 0.3333,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 251,
+      "ideal": "MYS",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 252,
+      "ideal": "URY",
+      "arm": "boost_safety",
+      "reward": 0.3562,
+      "baseline": 0.0
+    },
+    {
+      "iter": 253,
+      "ideal": "ARM",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 254,
+      "ideal": "USA",
+      "arm": "boost_safety",
+      "reward": 0.3869,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 255,
+      "ideal": "CHE",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 256,
+      "ideal": "DNK",
+      "arm": "damp_gdp",
+      "reward": 0.6309,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 257,
+      "ideal": "CHE",
+      "arm": "damp_gdp",
+      "reward": 0.4307,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 258,
+      "ideal": "ARM",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 259,
+      "ideal": "MNE",
+      "arm": "boost_cost",
+      "reward": 0.2891,
+      "baseline": 0.0
+    },
+    {
+      "iter": 260,
+      "ideal": "CZE",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 261,
+      "ideal": "MAR",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 262,
+      "ideal": "URY",
+      "arm": "boost_health",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 263,
+      "ideal": "AUT",
+      "arm": "damp_gdp",
+      "reward": 0.3333,
+      "baseline": 0.301
+    },
+    {
+      "iter": 264,
+      "ideal": "PAN",
+      "arm": "boost_safety",
+      "reward": 0.4307,
+      "baseline": 0.0
+    },
+    {
+      "iter": 265,
+      "ideal": "URY",
+      "arm": "boost_safety",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 266,
+      "ideal": "CRI",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 267,
+      "ideal": "JPN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 268,
+      "ideal": "MLT",
+      "arm": "boost_safety",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 269,
+      "ideal": "NOR",
+      "arm": "baseline",
+      "reward": 0.3155,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 270,
+      "ideal": "CYP",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.301
+    },
+    {
+      "iter": 271,
+      "ideal": "AUS",
+      "arm": "boost_safety",
+      "reward": 0.4307,
+      "baseline": 0.5
+    },
+    {
+      "iter": 272,
+      "ideal": "CHE",
+      "arm": "baseline",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 273,
+      "ideal": "PRT",
+      "arm": "boost_safety",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 274,
+      "ideal": "BEL",
+      "arm": "boost_safety",
+      "reward": 0.6309,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 275,
+      "ideal": "ESP",
+      "arm": "boost_safety",
+      "reward": 0.2891,
+      "baseline": 0.0
+    },
+    {
+      "iter": 276,
+      "ideal": "KOR",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 277,
+      "ideal": "ESP",
+      "arm": "boost_safety",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 278,
+      "ideal": "GBR",
+      "arm": "boost_safety",
+      "reward": 0.3869,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 279,
+      "ideal": "CHL",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 280,
+      "ideal": "VNM",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 281,
+      "ideal": "SVN",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 282,
+      "ideal": "CRI",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 283,
+      "ideal": "EST",
+      "arm": "damp_gdp",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 284,
+      "ideal": "IDN",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 285,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.3869,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 286,
+      "ideal": "PAN",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 287,
+      "ideal": "CRI",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 288,
+      "ideal": "SRB",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.0
+    },
+    {
+      "iter": 289,
+      "ideal": "TWN",
+      "arm": "boost_eu",
+      "reward": 0.4307,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 290,
+      "ideal": "SVN",
+      "arm": "boost_eu",
+      "reward": 0.3562,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 291,
+      "ideal": "ZAF",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 292,
+      "ideal": "MEX",
+      "arm": "boost_safety",
+      "reward": 0.3869,
+      "baseline": 0.301
+    },
+    {
+      "iter": 293,
+      "ideal": "AUS",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 0.5
+    },
+    {
+      "iter": 294,
+      "ideal": "AUS",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 295,
+      "ideal": "BGR",
+      "arm": "damp_gdp",
+      "reward": 0.3562,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 296,
+      "ideal": "ROU",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 297,
+      "ideal": "NLD",
+      "arm": "baseline",
+      "reward": 0.301,
+      "baseline": 0.301
+    },
+    {
+      "iter": 298,
+      "ideal": "GEO",
+      "arm": "baseline",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 299,
+      "ideal": "GEO",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.301
+    },
+    {
+      "iter": 300,
+      "ideal": "NOR",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 301,
+      "ideal": "DEU",
+      "arm": "damp_gdp",
+      "reward": 0.3155,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 302,
+      "ideal": "BRA",
+      "arm": "boost_safety",
+      "reward": 0.6309,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 303,
+      "ideal": "LUX",
+      "arm": "boost_safety",
+      "reward": 0.301,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 304,
+      "ideal": "ECU",
+      "arm": "boost_health",
+      "reward": 0.5,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 305,
+      "ideal": "EST",
+      "arm": "baseline",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 306,
+      "ideal": "VNM",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 307,
+      "ideal": "ISR",
+      "arm": "baseline",
+      "reward": 0.3869,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 308,
+      "ideal": "GBR",
+      "arm": "damp_gdp",
+      "reward": 0.3333,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 309,
+      "ideal": "AUT",
+      "arm": "baseline",
+      "reward": 0.3155,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 310,
+      "ideal": "URY",
+      "arm": "boost_safety",
+      "reward": 0.5,
+      "baseline": 0.0
+    },
+    {
+      "iter": 311,
+      "ideal": "AUT",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 312,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 0.4307,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 313,
+      "ideal": "CHL",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 314,
+      "ideal": "MEX",
+      "arm": "boost_safety",
+      "reward": 0.5,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 315,
+      "ideal": "ESP",
+      "arm": "boost_clean",
+      "reward": 0.3869,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 316,
+      "ideal": "AUS",
+      "arm": "damp_gdp",
+      "reward": 0.3869,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 317,
+      "ideal": "CHL",
+      "arm": "boost_safety",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 318,
+      "ideal": "SWE",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 319,
+      "ideal": "ROU",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 320,
+      "ideal": "LTU",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 321,
+      "ideal": "EST",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 322,
+      "ideal": "KOR",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 323,
+      "ideal": "PHL",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 324,
+      "ideal": "LVA",
+      "arm": "damp_gdp",
+      "reward": 0.3155,
+      "baseline": 0.0
+    },
+    {
+      "iter": 325,
+      "ideal": "MYS",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 326,
+      "ideal": "GBR",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 327,
+      "ideal": "LUX",
+      "arm": "boost_cost",
+      "reward": 0.4307,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 328,
+      "ideal": "KOR",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 329,
+      "ideal": "CAN",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 330,
+      "ideal": "CRI",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 331,
+      "ideal": "JPN",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 332,
+      "ideal": "CZE",
+      "arm": "boost_visa",
+      "reward": 0.4307,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 333,
+      "ideal": "POL",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 334,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.3562,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 335,
+      "ideal": "ARM",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 336,
+      "ideal": "HRV",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.301
+    },
+    {
+      "iter": 337,
+      "ideal": "CRI",
+      "arm": "boost_safety",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 338,
+      "ideal": "GBR",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 0.5
+    },
+    {
+      "iter": 339,
+      "ideal": "ZAF",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 340,
+      "ideal": "CZE",
+      "arm": "boost_cost",
+      "reward": 0.3869,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 341,
+      "ideal": "MNE",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 342,
+      "ideal": "EST",
+      "arm": "boost_health",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 343,
+      "ideal": "LTU",
+      "arm": "boost_health",
+      "reward": 0.3869,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 344,
+      "ideal": "NZL",
+      "arm": "boost_eu",
+      "reward": 0.3562,
+      "baseline": 0.301
+    },
+    {
+      "iter": 345,
+      "ideal": "ESP",
+      "arm": "boost_cost",
+      "reward": 0.5,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 346,
+      "ideal": "MNE",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 347,
+      "ideal": "ROU",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 348,
+      "ideal": "HUN",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 349,
+      "ideal": "DNK",
+      "arm": "baseline",
+      "reward": 0.4307,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 350,
+      "ideal": "MYS",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 351,
+      "ideal": "PER",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 352,
+      "ideal": "MYS",
+      "arm": "boost_visa",
+      "reward": 0.3155,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 353,
+      "ideal": "IRL",
+      "arm": "damp_gdp",
+      "reward": 0.3333,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 354,
+      "ideal": "URY",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 355,
+      "ideal": "CHL",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 356,
+      "ideal": "IRL",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 357,
+      "ideal": "PHL",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 358,
+      "ideal": "KOR",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.301
+    },
+    {
+      "iter": 359,
+      "ideal": "COL",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 360,
+      "ideal": "ISR",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 361,
+      "ideal": "HUN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 362,
+      "ideal": "ZAF",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 363,
+      "ideal": "MEX",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 364,
+      "ideal": "PAN",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.0
+    },
+    {
+      "iter": 365,
+      "ideal": "EST",
+      "arm": "boost_health",
+      "reward": 0.3155,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 366,
+      "ideal": "CZE",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 367,
+      "ideal": "SWE",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 368,
+      "ideal": "MLT",
+      "arm": "boost_safety",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 369,
+      "ideal": "AUT",
+      "arm": "damp_gdp",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 370,
+      "ideal": "VNM",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 371,
+      "ideal": "SGP",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 372,
+      "ideal": "VNM",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 373,
+      "ideal": "GEO",
+      "arm": "boost_health",
+      "reward": 0.3333,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 374,
+      "ideal": "COL",
+      "arm": "boost_cost",
+      "reward": 0.3562,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 375,
+      "ideal": "ALB",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 376,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 377,
+      "ideal": "NLD",
+      "arm": "boost_cost",
+      "reward": 0.4307,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 378,
+      "ideal": "BEL",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 379,
+      "ideal": "PRT",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 1.0
+    },
+    {
+      "iter": 380,
+      "ideal": "PER",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 381,
+      "ideal": "MYS",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 382,
+      "ideal": "MLT",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 383,
+      "ideal": "GRC",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 384,
+      "ideal": "MYS",
+      "arm": "boost_visa",
+      "reward": 0.3155,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 385,
+      "ideal": "POL",
+      "arm": "damp_gdp",
+      "reward": 0.3869,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 386,
+      "ideal": "CHE",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 387,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.4307,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 388,
+      "ideal": "NLD",
+      "arm": "baseline",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 389,
+      "ideal": "CAN",
+      "arm": "boost_eu",
+      "reward": 0.3333,
+      "baseline": 0.301
+    },
+    {
+      "iter": 390,
+      "ideal": "SVN",
+      "arm": "damp_gdp",
+      "reward": 0.3155,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 391,
+      "ideal": "ROU",
+      "arm": "boost_visa",
+      "reward": 0.3869,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 392,
+      "ideal": "COL",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 393,
+      "ideal": "MEX",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 394,
+      "ideal": "PER",
+      "arm": "damp_gdp",
+      "reward": 0.5,
+      "baseline": 1.0
+    },
+    {
+      "iter": 395,
+      "ideal": "SWE",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 396,
+      "ideal": "TWN",
+      "arm": "boost_eu",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 397,
+      "ideal": "IDN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 398,
+      "ideal": "PHL",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 399,
+      "ideal": "GEO",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 400,
+      "ideal": "DEU",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 401,
+      "ideal": "LVA",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 402,
+      "ideal": "IDN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 403,
+      "ideal": "CZE",
+      "arm": "boost_eu",
+      "reward": 0.2891,
+      "baseline": 0.301
+    },
+    {
+      "iter": 404,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.3869,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 405,
+      "ideal": "BEL",
+      "arm": "boost_eu",
+      "reward": 0.3333,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 406,
+      "ideal": "PAN",
+      "arm": "boost_cost",
+      "reward": 0.301,
+      "baseline": 0.0
+    },
+    {
+      "iter": 407,
+      "ideal": "DEU",
+      "arm": "baseline",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 408,
+      "ideal": "ECU",
+      "arm": "boost_cost",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 409,
+      "ideal": "JPN",
+      "arm": "boost_eu",
+      "reward": 0.4307,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 410,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 411,
+      "ideal": "HUN",
+      "arm": "damp_gdp",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 412,
+      "ideal": "HRV",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 413,
+      "ideal": "FIN",
+      "arm": "damp_gdp",
+      "reward": 0.5,
+      "baseline": 0.301
+    },
+    {
+      "iter": 414,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 415,
+      "ideal": "BGR",
+      "arm": "damp_gdp",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 416,
+      "ideal": "ISR",
+      "arm": "boost_cost",
+      "reward": 0.4307,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 417,
+      "ideal": "PER",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 418,
+      "ideal": "HRV",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.5
+    },
+    {
+      "iter": 419,
+      "ideal": "AUT",
+      "arm": "baseline",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 420,
+      "ideal": "SRB",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 421,
+      "ideal": "GEO",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 422,
+      "ideal": "IDN",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 423,
+      "ideal": "GBR",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 424,
+      "ideal": "ISR",
+      "arm": "baseline",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 425,
+      "ideal": "CRI",
+      "arm": "boost_safety",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 426,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 427,
+      "ideal": "BRA",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 428,
+      "ideal": "LVA",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 429,
+      "ideal": "ECU",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 430,
+      "ideal": "LTU",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 431,
+      "ideal": "LVA",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 432,
+      "ideal": "GBR",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 433,
+      "ideal": "MAR",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 434,
+      "ideal": "PER",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 435,
+      "ideal": "MAR",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 436,
+      "ideal": "ZAF",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 437,
+      "ideal": "AUT",
+      "arm": "baseline",
+      "reward": 0.3562,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 438,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 439,
+      "ideal": "FIN",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 440,
+      "ideal": "MLT",
+      "arm": "boost_safety",
+      "reward": 0.3562,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 441,
+      "ideal": "AUS",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 442,
+      "ideal": "ZAF",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 443,
+      "ideal": "BRA",
+      "arm": "boost_safety",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 444,
+      "ideal": "ITA",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 445,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 446,
+      "ideal": "PHL",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 447,
+      "ideal": "LTU",
+      "arm": "boost_health",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 448,
+      "ideal": "PAN",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 449,
+      "ideal": "VNM",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 450,
+      "ideal": "SGP",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 451,
+      "ideal": "COL",
+      "arm": "boost_safety",
+      "reward": 0.3562,
+      "baseline": 0.0
+    },
+    {
+      "iter": 452,
+      "ideal": "VNM",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 453,
+      "ideal": "AUS",
+      "arm": "boost_eu",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 454,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 455,
+      "ideal": "PHL",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 456,
+      "ideal": "AUS",
+      "arm": "boost_eu",
+      "reward": 0.5,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 457,
+      "ideal": "ALB",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 458,
+      "ideal": "HRV",
+      "arm": "boost_cost",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 459,
+      "ideal": "ZAF",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 460,
+      "ideal": "LUX",
+      "arm": "damp_gdp",
+      "reward": 0.4307,
+      "baseline": 1.0
+    },
+    {
+      "iter": 461,
+      "ideal": "LVA",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 462,
+      "ideal": "ITA",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 463,
+      "ideal": "LTU",
+      "arm": "boost_health",
+      "reward": 0.3869,
+      "baseline": 0.301
+    },
+    {
+      "iter": 464,
+      "ideal": "MYS",
+      "arm": "boost_clean",
+      "reward": 0.4307,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 465,
+      "ideal": "VNM",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 466,
+      "ideal": "SGP",
+      "arm": "damp_gdp",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 467,
+      "ideal": "ZAF",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 468,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.3333,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 469,
+      "ideal": "ESP",
+      "arm": "boost_clean",
+      "reward": 0.3869,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 470,
+      "ideal": "IRL",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 471,
+      "ideal": "EST",
+      "arm": "boost_cost",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 472,
+      "ideal": "HUN",
+      "arm": "boost_cost",
+      "reward": 0.3333,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 473,
+      "ideal": "ITA",
+      "arm": "baseline",
+      "reward": 0.3562,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 474,
+      "ideal": "MNE",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 475,
+      "ideal": "ESP",
+      "arm": "boost_health",
+      "reward": 0.6309,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 476,
+      "ideal": "AUS",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 477,
+      "ideal": "KOR",
+      "arm": "boost_eu",
+      "reward": 0.4307,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 478,
+      "ideal": "TWN",
+      "arm": "boost_cost",
+      "reward": 0.3562,
+      "baseline": 0.301
+    },
+    {
+      "iter": 479,
+      "ideal": "LTU",
+      "arm": "boost_cost",
+      "reward": 0.3333,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 480,
+      "ideal": "SWE",
+      "arm": "damp_gdp",
+      "reward": 0.4307,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 481,
+      "ideal": "IDN",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.0
+    },
+    {
+      "iter": 482,
+      "ideal": "EST",
+      "arm": "boost_cost",
+      "reward": 0.5,
+      "baseline": 1.0
+    },
+    {
+      "iter": 483,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.3869,
+      "baseline": 0.0
+    },
+    {
+      "iter": 484,
+      "ideal": "CRI",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 485,
+      "ideal": "AUT",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 486,
+      "ideal": "MEX",
+      "arm": "boost_health",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 487,
+      "ideal": "BEL",
+      "arm": "damp_gdp",
+      "reward": 0.3562,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 488,
+      "ideal": "ESP",
+      "arm": "boost_clean",
+      "reward": 0.3333,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 489,
+      "ideal": "ISR",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 490,
+      "ideal": "COL",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 491,
+      "ideal": "NZL",
+      "arm": "boost_eu",
+      "reward": 0.3562,
+      "baseline": 0.301
+    },
+    {
+      "iter": 492,
+      "ideal": "VNM",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 493,
+      "ideal": "ALB",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 494,
+      "ideal": "URY",
+      "arm": "boost_health",
+      "reward": 0.5,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 495,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 496,
+      "ideal": "ARM",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.0
+    },
+    {
+      "iter": 497,
+      "ideal": "ISR",
+      "arm": "boost_clean",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 498,
+      "ideal": "MYS",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 499,
+      "ideal": "ECU",
+      "arm": "boost_health",
+      "reward": 0.3869,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 500,
+      "ideal": "ECU",
+      "arm": "boost_health",
+      "reward": 0.3869,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 501,
+      "ideal": "NZL",
+      "arm": "boost_eu",
+      "reward": 0.3869,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 502,
+      "ideal": "SWE",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 503,
+      "ideal": "NZL",
+      "arm": "boost_eu",
+      "reward": 0.4307,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 504,
+      "ideal": "LVA",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 505,
+      "ideal": "CHL",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 506,
+      "ideal": "ISR",
+      "arm": "damp_gdp",
+      "reward": 0.3562,
+      "baseline": 0.0
+    },
+    {
+      "iter": 507,
+      "ideal": "ROU",
+      "arm": "boost_cost",
+      "reward": 0.3562,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 508,
+      "ideal": "PRT",
+      "arm": "boost_cost",
+      "reward": 0.4307,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 509,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 510,
+      "ideal": "MLT",
+      "arm": "boost_safety",
+      "reward": 0.5,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 511,
+      "ideal": "JPN",
+      "arm": "boost_cost",
+      "reward": 0.3562,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 512,
+      "ideal": "MLT",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 513,
+      "ideal": "ITA",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 514,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 515,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 516,
+      "ideal": "PRT",
+      "arm": "boost_health",
+      "reward": 0.4307,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 517,
+      "ideal": "DEU",
+      "arm": "baseline",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 518,
+      "ideal": "MYS",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 519,
+      "ideal": "EST",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 520,
+      "ideal": "MEX",
+      "arm": "boost_health",
+      "reward": 0.4307,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 521,
+      "ideal": "JPN",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 522,
+      "ideal": "PER",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 523,
+      "ideal": "GEO",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 524,
+      "ideal": "PER",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 525,
+      "ideal": "COL",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 526,
+      "ideal": "ECU",
+      "arm": "boost_health",
+      "reward": 0.4307,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 527,
+      "ideal": "DNK",
+      "arm": "damp_gdp",
+      "reward": 0.6309,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 528,
+      "ideal": "JPN",
+      "arm": "boost_eu",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 529,
+      "ideal": "ZAF",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 530,
+      "ideal": "GRC",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 531,
+      "ideal": "PER",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 532,
+      "ideal": "BRA",
+      "arm": "boost_safety",
+      "reward": 0.301,
+      "baseline": 0.0
+    },
+    {
+      "iter": 533,
+      "ideal": "MAR",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 534,
+      "ideal": "CZE",
+      "arm": "boost_cost",
+      "reward": 0.301,
+      "baseline": 0.0
+    },
+    {
+      "iter": 535,
+      "ideal": "PHL",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 536,
+      "ideal": "DEU",
+      "arm": "baseline",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 537,
+      "ideal": "ECU",
+      "arm": "boost_health",
+      "reward": 0.3869,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 538,
+      "ideal": "URY",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 539,
+      "ideal": "AUS",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 540,
+      "ideal": "ITA",
+      "arm": "boost_safety",
+      "reward": 0.3333,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 541,
+      "ideal": "ECU",
+      "arm": "boost_health",
+      "reward": 0.5,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 542,
+      "ideal": "DNK",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 543,
+      "ideal": "CAN",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 544,
+      "ideal": "GBR",
+      "arm": "boost_eu",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 545,
+      "ideal": "DNK",
+      "arm": "damp_gdp",
+      "reward": 0.5,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 546,
+      "ideal": "FIN",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 547,
+      "ideal": "MAR",
+      "arm": "boost_visa",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 548,
+      "ideal": "PRT",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 549,
+      "ideal": "ESP",
+      "arm": "boost_health",
+      "reward": 0.3155,
+      "baseline": 0.301
+    },
+    {
+      "iter": 550,
+      "ideal": "PAN",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 551,
+      "ideal": "POL",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 552,
+      "ideal": "IDN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 553,
+      "ideal": "CYP",
+      "arm": "baseline",
+      "reward": 0.3869,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 554,
+      "ideal": "SRB",
+      "arm": "boost_cost",
+      "reward": 0.3869,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 555,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 556,
+      "ideal": "GBR",
+      "arm": "boost_eu",
+      "reward": 0.3333,
+      "baseline": 0.301
+    },
+    {
+      "iter": 557,
+      "ideal": "CHE",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 558,
+      "ideal": "BEL",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 559,
+      "ideal": "MAR",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 560,
+      "ideal": "ZAF",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 561,
+      "ideal": "MEX",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 562,
+      "ideal": "HUN",
+      "arm": "baseline",
+      "reward": 0.3869,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 563,
+      "ideal": "TWN",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 564,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 565,
+      "ideal": "CYP",
+      "arm": "boost_cost",
+      "reward": 0.3333,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 566,
+      "ideal": "MNE",
+      "arm": "boost_cost",
+      "reward": 0.2891,
+      "baseline": 0.0
+    },
+    {
+      "iter": 567,
+      "ideal": "DNK",
+      "arm": "damp_gdp",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 568,
+      "ideal": "CRI",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 569,
+      "ideal": "NZL",
+      "arm": "boost_eu",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 570,
+      "ideal": "ALB",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 571,
+      "ideal": "GEO",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 572,
+      "ideal": "ITA",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 573,
+      "ideal": "VNM",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 574,
+      "ideal": "IDN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 575,
+      "ideal": "GEO",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 576,
+      "ideal": "PER",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 577,
+      "ideal": "SGP",
+      "arm": "damp_gdp",
+      "reward": 0.4307,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 578,
+      "ideal": "GBR",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 579,
+      "ideal": "CZE",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 580,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.3562,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 581,
+      "ideal": "BGR",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 582,
+      "ideal": "LVA",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 583,
+      "ideal": "BEL",
+      "arm": "damp_gdp",
+      "reward": 0.3562,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 584,
+      "ideal": "NLD",
+      "arm": "damp_gdp",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 585,
+      "ideal": "MAR",
+      "arm": "boost_visa",
+      "reward": 0.3155,
+      "baseline": 0.301
+    },
+    {
+      "iter": 586,
+      "ideal": "PRT",
+      "arm": "boost_cost",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 587,
+      "ideal": "JPN",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 0.5
+    },
+    {
+      "iter": 588,
+      "ideal": "ESP",
+      "arm": "boost_health",
+      "reward": 0.6309,
+      "baseline": 1.0
+    },
+    {
+      "iter": 589,
+      "ideal": "CHE",
+      "arm": "baseline",
+      "reward": 0.3869,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 590,
+      "ideal": "URY",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 591,
+      "ideal": "HRV",
+      "arm": "boost_cost",
+      "reward": 0.5,
+      "baseline": 1.0
+    },
+    {
+      "iter": 592,
+      "ideal": "VNM",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 593,
+      "ideal": "PRT",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 1.0
+    },
+    {
+      "iter": 594,
+      "ideal": "ECU",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 595,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 596,
+      "ideal": "PAN",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.0
+    },
+    {
+      "iter": 597,
+      "ideal": "ITA",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 598,
+      "ideal": "CRI",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 599,
+      "ideal": "MLT",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 600,
+      "ideal": "SRB",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.0
+    },
+    {
+      "iter": 601,
+      "ideal": "ROU",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 602,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 603,
+      "ideal": "SRB",
+      "arm": "boost_visa",
+      "reward": 0.2891,
+      "baseline": 0.0
+    },
+    {
+      "iter": 604,
+      "ideal": "JPN",
+      "arm": "boost_cost",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 605,
+      "ideal": "MNE",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.0
+    },
+    {
+      "iter": 606,
+      "ideal": "IRL",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 607,
+      "ideal": "IDN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 608,
+      "ideal": "ZAF",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 609,
+      "ideal": "BRA",
+      "arm": "boost_safety",
+      "reward": 0.301,
+      "baseline": 0.0
+    },
+    {
+      "iter": 610,
+      "ideal": "CAN",
+      "arm": "boost_eu",
+      "reward": 0.5,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 611,
+      "ideal": "NZL",
+      "arm": "boost_eu",
+      "reward": 0.5,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 612,
+      "ideal": "NZL",
+      "arm": "boost_eu",
+      "reward": 0.4307,
+      "baseline": 0.301
+    },
+    {
+      "iter": 613,
+      "ideal": "IRL",
+      "arm": "boost_eu",
+      "reward": 0.3562,
+      "baseline": 1.0
+    },
+    {
+      "iter": 614,
+      "ideal": "MAR",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 615,
+      "ideal": "HRV",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 616,
+      "ideal": "HUN",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 617,
+      "ideal": "MLT",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 618,
+      "ideal": "ARM",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 619,
+      "ideal": "CHL",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 620,
+      "ideal": "PAN",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 621,
+      "ideal": "AUT",
+      "arm": "baseline",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 622,
+      "ideal": "HRV",
+      "arm": "boost_cost",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 623,
+      "ideal": "BRA",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 624,
+      "ideal": "MLT",
+      "arm": "boost_cost",
+      "reward": 0.3869,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 625,
+      "ideal": "AUS",
+      "arm": "boost_eu",
+      "reward": 0.2891,
+      "baseline": 0.0
+    },
+    {
+      "iter": 626,
+      "ideal": "PAN",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 627,
+      "ideal": "AUS",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 628,
+      "ideal": "ISR",
+      "arm": "damp_gdp",
+      "reward": 0.3562,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 629,
+      "ideal": "SVN",
+      "arm": "baseline",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 630,
+      "ideal": "NOR",
+      "arm": "damp_gdp",
+      "reward": 0.3562,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 631,
+      "ideal": "PRT",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 632,
+      "ideal": "CYP",
+      "arm": "boost_cost",
+      "reward": 0.5,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 633,
+      "ideal": "DEU",
+      "arm": "baseline",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 634,
+      "ideal": "NLD",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 635,
+      "ideal": "GRC",
+      "arm": "baseline",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 636,
+      "ideal": "MNE",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 637,
+      "ideal": "IRL",
+      "arm": "boost_eu",
+      "reward": 0.5,
+      "baseline": 1.0
+    },
+    {
+      "iter": 638,
+      "ideal": "BRA",
+      "arm": "boost_safety",
+      "reward": 0.3562,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 639,
+      "ideal": "LUX",
+      "arm": "boost_cost",
+      "reward": 0.3869,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 640,
+      "ideal": "SGP",
+      "arm": "damp_gdp",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 641,
+      "ideal": "ECU",
+      "arm": "boost_safety",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 642,
+      "ideal": "AUT",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 643,
+      "ideal": "ROU",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 644,
+      "ideal": "MEX",
+      "arm": "boost_health",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 645,
+      "ideal": "SWE",
+      "arm": "baseline",
+      "reward": 0.3869,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 646,
+      "ideal": "ARG",
+      "arm": "boost_safety",
+      "reward": 0.5,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 647,
+      "ideal": "AUS",
+      "arm": "boost_eu",
+      "reward": 0.5,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 648,
+      "ideal": "LUX",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 649,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 0.3562,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 650,
+      "ideal": "GBR",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 651,
+      "ideal": "COL",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 652,
+      "ideal": "ESP",
+      "arm": "boost_health",
+      "reward": 0.6309,
+      "baseline": 1.0
+    },
+    {
+      "iter": 653,
+      "ideal": "NOR",
+      "arm": "damp_gdp",
+      "reward": 0.2891,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 654,
+      "ideal": "PAN",
+      "arm": "boost_cost",
+      "reward": 0.3562,
+      "baseline": 0.0
+    },
+    {
+      "iter": 655,
+      "ideal": "COL",
+      "arm": "boost_safety",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 656,
+      "ideal": "GBR",
+      "arm": "boost_eu",
+      "reward": 0.3869,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 657,
+      "ideal": "IDN",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 658,
+      "ideal": "MAR",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 659,
+      "ideal": "NZL",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 660,
+      "ideal": "VNM",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 661,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.4307,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 662,
+      "ideal": "BEL",
+      "arm": "baseline",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 663,
+      "ideal": "IRL",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 664,
+      "ideal": "TWN",
+      "arm": "boost_cost",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 665,
+      "ideal": "PER",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 666,
+      "ideal": "NLD",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 667,
+      "ideal": "SWE",
+      "arm": "boost_eu",
+      "reward": 0.3155,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 668,
+      "ideal": "ESP",
+      "arm": "boost_safety",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 669,
+      "ideal": "POL",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 670,
+      "ideal": "BEL",
+      "arm": "baseline",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 671,
+      "ideal": "ITA",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 672,
+      "ideal": "POL",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 673,
+      "ideal": "HUN",
+      "arm": "boost_cost",
+      "reward": 0.3869,
+      "baseline": 0.5
+    },
+    {
+      "iter": 674,
+      "ideal": "HRV",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 675,
+      "ideal": "ROU",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 676,
+      "ideal": "KOR",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 677,
+      "ideal": "MEX",
+      "arm": "boost_health",
+      "reward": 0.3155,
+      "baseline": 0.0
+    },
+    {
+      "iter": 678,
+      "ideal": "URY",
+      "arm": "boost_safety",
+      "reward": 1.0,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 679,
+      "ideal": "ROU",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 680,
+      "ideal": "MYS",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 681,
+      "ideal": "POL",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 682,
+      "ideal": "EST",
+      "arm": "baseline",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 683,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 684,
+      "ideal": "FIN",
+      "arm": "damp_gdp",
+      "reward": 0.6309,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 685,
+      "ideal": "DEU",
+      "arm": "baseline",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 686,
+      "ideal": "NLD",
+      "arm": "boost_cost",
+      "reward": 0.4307,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 687,
+      "ideal": "ZAF",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 688,
+      "ideal": "IRL",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 689,
+      "ideal": "ZAF",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 690,
+      "ideal": "CHL",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 691,
+      "ideal": "HRV",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.301
+    },
+    {
+      "iter": 692,
+      "ideal": "MYS",
+      "arm": "boost_visa",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 693,
+      "ideal": "ESP",
+      "arm": "boost_safety",
+      "reward": 0.2891,
+      "baseline": 0.0
+    },
+    {
+      "iter": 694,
+      "ideal": "COL",
+      "arm": "boost_health",
+      "reward": 0.3333,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 695,
+      "ideal": "LVA",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 696,
+      "ideal": "HUN",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 697,
+      "ideal": "AUT",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 698,
+      "ideal": "SWE",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 699,
+      "ideal": "CAN",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 700,
+      "ideal": "BRA",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 701,
+      "ideal": "MYS",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 702,
+      "ideal": "HRV",
+      "arm": "boost_cost",
+      "reward": 0.5,
+      "baseline": 1.0
+    },
+    {
+      "iter": 703,
+      "ideal": "GBR",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 704,
+      "ideal": "ECU",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 705,
+      "ideal": "FIN",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 706,
+      "ideal": "VNM",
+      "arm": "boost_visa",
+      "reward": 0.3333,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 707,
+      "ideal": "JPN",
+      "arm": "boost_eu",
+      "reward": 0.4307,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 708,
+      "ideal": "MYS",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 709,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.4307,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 710,
+      "ideal": "GRC",
+      "arm": "baseline",
+      "reward": 0.3869,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 711,
+      "ideal": "EST",
+      "arm": "baseline",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 712,
+      "ideal": "IDN",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 713,
+      "ideal": "URY",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 714,
+      "ideal": "BEL",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 715,
+      "ideal": "FIN",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 716,
+      "ideal": "SRB",
+      "arm": "boost_visa",
+      "reward": 0.301,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 717,
+      "ideal": "LUX",
+      "arm": "boost_safety",
+      "reward": 0.2891,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 718,
+      "ideal": "ISR",
+      "arm": "damp_gdp",
+      "reward": 0.3562,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 719,
+      "ideal": "PER",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 720,
+      "ideal": "CRI",
+      "arm": "boost_safety",
+      "reward": 0.5,
+      "baseline": 0.0
+    },
+    {
+      "iter": 721,
+      "ideal": "TWN",
+      "arm": "boost_cost",
+      "reward": 0.3869,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 722,
+      "ideal": "TWN",
+      "arm": "boost_cost",
+      "reward": 0.3333,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 723,
+      "ideal": "URY",
+      "arm": "boost_safety",
+      "reward": 0.3155,
+      "baseline": 0.0
+    },
+    {
+      "iter": 724,
+      "ideal": "LVA",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 725,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 0.4307,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 726,
+      "ideal": "PHL",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 727,
+      "ideal": "ARM",
+      "arm": "baseline",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 728,
+      "ideal": "IDN",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 729,
+      "ideal": "HUN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 730,
+      "ideal": "VNM",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 731,
+      "ideal": "CYP",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 732,
+      "ideal": "DEU",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 733,
+      "ideal": "FIN",
+      "arm": "boost_cost",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 734,
+      "ideal": "CYP",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 735,
+      "ideal": "BEL",
+      "arm": "boost_safety",
+      "reward": 1.0,
+      "baseline": 0.5
+    },
+    {
+      "iter": 736,
+      "ideal": "GEO",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 737,
+      "ideal": "PER",
+      "arm": "boost_eu",
+      "reward": 0.301,
+      "baseline": 0.0
+    },
+    {
+      "iter": 738,
+      "ideal": "ECU",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 739,
+      "ideal": "NZL",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 740,
+      "ideal": "ROU",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 741,
+      "ideal": "HUN",
+      "arm": "baseline",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 742,
+      "ideal": "GEO",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 743,
+      "ideal": "AUT",
+      "arm": "baseline",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 744,
+      "ideal": "SRB",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.0
+    },
+    {
+      "iter": 745,
+      "ideal": "HRV",
+      "arm": "boost_cost",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 746,
+      "ideal": "VNM",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 747,
+      "ideal": "KOR",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 748,
+      "ideal": "CRI",
+      "arm": "boost_safety",
+      "reward": 0.3562,
+      "baseline": 0.0
+    },
+    {
+      "iter": 749,
+      "ideal": "HUN",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 750,
+      "ideal": "ARG",
+      "arm": "boost_safety",
+      "reward": 1.0,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 751,
+      "ideal": "CZE",
+      "arm": "boost_eu",
+      "reward": 0.3562,
+      "baseline": 0.5
+    },
+    {
+      "iter": 752,
+      "ideal": "BEL",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 753,
+      "ideal": "COL",
+      "arm": "boost_safety",
+      "reward": 0.3562,
+      "baseline": 0.0
+    },
+    {
+      "iter": 754,
+      "ideal": "ISR",
+      "arm": "boost_cost",
+      "reward": 0.3869,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 755,
+      "ideal": "NLD",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 756,
+      "ideal": "FIN",
+      "arm": "boost_cost",
+      "reward": 0.4307,
+      "baseline": 0.5
+    },
+    {
+      "iter": 757,
+      "ideal": "IDN",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 758,
+      "ideal": "GBR",
+      "arm": "boost_eu",
+      "reward": 0.3869,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 759,
+      "ideal": "COL",
+      "arm": "boost_safety",
+      "reward": 0.2891,
+      "baseline": 0.0
+    },
+    {
+      "iter": 760,
+      "ideal": "ARM",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 761,
+      "ideal": "COL",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 762,
+      "ideal": "ARM",
+      "arm": "baseline",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 763,
+      "ideal": "POL",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 764,
+      "ideal": "NZL",
+      "arm": "boost_eu",
+      "reward": 0.4307,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 765,
+      "ideal": "ARG",
+      "arm": "boost_safety",
+      "reward": 0.4307,
+      "baseline": 0.0
+    },
+    {
+      "iter": 766,
+      "ideal": "THA",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 767,
+      "ideal": "HUN",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 768,
+      "ideal": "SGP",
+      "arm": "damp_gdp",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 769,
+      "ideal": "CAN",
+      "arm": "boost_eu",
+      "reward": 0.5,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 770,
+      "ideal": "MEX",
+      "arm": "boost_health",
+      "reward": 0.4307,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 771,
+      "ideal": "DEU",
+      "arm": "baseline",
+      "reward": 0.2891,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 772,
+      "ideal": "POL",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 773,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 0.6309,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 774,
+      "ideal": "NLD",
+      "arm": "damp_gdp",
+      "reward": 0.3562,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 775,
+      "ideal": "LTU",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 776,
+      "ideal": "BEL",
+      "arm": "boost_safety",
+      "reward": 0.3869,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 777,
+      "ideal": "DNK",
+      "arm": "damp_gdp",
+      "reward": 0.5,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 778,
+      "ideal": "URY",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 779,
+      "ideal": "JPN",
+      "arm": "boost_eu",
+      "reward": 0.4307,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 780,
+      "ideal": "ROU",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 781,
+      "ideal": "VNM",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 782,
+      "ideal": "ZAF",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 783,
+      "ideal": "HUN",
+      "arm": "boost_visa",
+      "reward": 0.3333,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 784,
+      "ideal": "URY",
+      "arm": "boost_safety",
+      "reward": 0.5,
+      "baseline": 0.0
+    },
+    {
+      "iter": 785,
+      "ideal": "CZE",
+      "arm": "boost_cost",
+      "reward": 0.3562,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 786,
+      "ideal": "THA",
+      "arm": "boost_cost",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 787,
+      "ideal": "VNM",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 788,
+      "ideal": "AUT",
+      "arm": "baseline",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 789,
+      "ideal": "JPN",
+      "arm": "boost_eu",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 790,
+      "ideal": "CYP",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 791,
+      "ideal": "PER",
+      "arm": "boost_eu",
+      "reward": 0.6309,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 792,
+      "ideal": "ISR",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 793,
+      "ideal": "MNE",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 794,
+      "ideal": "SRB",
+      "arm": "boost_visa",
+      "reward": 0.301,
+      "baseline": 0.0
+    },
+    {
+      "iter": 795,
+      "ideal": "CZE",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 796,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 797,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.3869,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 798,
+      "ideal": "HUN",
+      "arm": "boost_visa",
+      "reward": 1.0,
+      "baseline": 0.5
+    },
+    {
+      "iter": 799,
+      "ideal": "LTU",
+      "arm": "boost_health",
+      "reward": 0.3562,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 800,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 0.5,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 801,
+      "ideal": "GEO",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 802,
+      "ideal": "GBR",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 803,
+      "ideal": "IRL",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 804,
+      "ideal": "ARM",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 805,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 806,
+      "ideal": "LUX",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.301
+    },
+    {
+      "iter": 807,
+      "ideal": "CHE",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 808,
+      "ideal": "DNK",
+      "arm": "damp_gdp",
+      "reward": 0.3155,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 809,
+      "ideal": "NOR",
+      "arm": "boost_cost",
+      "reward": 0.5,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 810,
+      "ideal": "NOR",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 811,
+      "ideal": "GEO",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 812,
+      "ideal": "NOR",
+      "arm": "damp_gdp",
+      "reward": 0.2891,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 813,
+      "ideal": "BRA",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 814,
+      "ideal": "DEU",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 815,
+      "ideal": "KOR",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 1.0
+    },
+    {
+      "iter": 816,
+      "ideal": "TWN",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 817,
+      "ideal": "MEX",
+      "arm": "boost_health",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 818,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 819,
+      "ideal": "ECU",
+      "arm": "boost_safety",
+      "reward": 0.4307,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 820,
+      "ideal": "MAR",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 821,
+      "ideal": "LTU",
+      "arm": "boost_health",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 822,
+      "ideal": "THA",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.301
+    },
+    {
+      "iter": 823,
+      "ideal": "CZE",
+      "arm": "boost_cost",
+      "reward": 0.4307,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 824,
+      "ideal": "SWE",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 825,
+      "ideal": "ROU",
+      "arm": "boost_visa",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 826,
+      "ideal": "DNK",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 827,
+      "ideal": "ZAF",
+      "arm": "boost_safety",
+      "reward": 0.301,
+      "baseline": 0.0
+    },
+    {
+      "iter": 828,
+      "ideal": "SWE",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 829,
+      "ideal": "ISR",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 830,
+      "ideal": "MYS",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 831,
+      "ideal": "PHL",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 832,
+      "ideal": "ZAF",
+      "arm": "boost_safety",
+      "reward": 0.3155,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 833,
+      "ideal": "BRA",
+      "arm": "boost_safety",
+      "reward": 0.3869,
+      "baseline": 0.0
+    },
+    {
+      "iter": 834,
+      "ideal": "ECU",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 835,
+      "ideal": "KOR",
+      "arm": "damp_gdp",
+      "reward": 0.3562,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 836,
+      "ideal": "NOR",
+      "arm": "boost_cost",
+      "reward": 1.0,
+      "baseline": 0.5
+    },
+    {
+      "iter": 837,
+      "ideal": "BRA",
+      "arm": "boost_safety",
+      "reward": 0.6309,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 838,
+      "ideal": "COL",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 839,
+      "ideal": "NLD",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 840,
+      "ideal": "EST",
+      "arm": "baseline",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 841,
+      "ideal": "ECU",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 842,
+      "ideal": "PHL",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 843,
+      "ideal": "CYP",
+      "arm": "boost_cost",
+      "reward": 0.3333,
+      "baseline": 0.5
+    },
+    {
+      "iter": 844,
+      "ideal": "ALB",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 845,
+      "ideal": "MYS",
+      "arm": "boost_safety",
+      "reward": 0.4307,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 846,
+      "ideal": "ROU",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 847,
+      "ideal": "DEU",
+      "arm": "baseline",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 848,
+      "ideal": "LUX",
+      "arm": "boost_health",
+      "reward": 0.301,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 849,
+      "ideal": "SRB",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.0
+    },
+    {
+      "iter": 850,
+      "ideal": "CAN",
+      "arm": "boost_eu",
+      "reward": 0.3155,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 851,
+      "ideal": "PER",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 852,
+      "ideal": "ZAF",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 853,
+      "ideal": "SGP",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 854,
+      "ideal": "AUT",
+      "arm": "baseline",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 855,
+      "ideal": "ROU",
+      "arm": "boost_visa",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 856,
+      "ideal": "MNE",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.0
+    },
+    {
+      "iter": 857,
+      "ideal": "CRI",
+      "arm": "boost_safety",
+      "reward": 0.3155,
+      "baseline": 0.0
+    },
+    {
+      "iter": 858,
+      "ideal": "LVA",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 859,
+      "ideal": "ISR",
+      "arm": "boost_cost",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 860,
+      "ideal": "LVA",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 861,
+      "ideal": "CHL",
+      "arm": "boost_safety",
+      "reward": 0.4307,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 862,
+      "ideal": "SGP",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 863,
+      "ideal": "CHE",
+      "arm": "damp_gdp",
+      "reward": 0.4307,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 864,
+      "ideal": "ECU",
+      "arm": "boost_safety",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 865,
+      "ideal": "CHL",
+      "arm": "boost_safety",
+      "reward": 0.301,
+      "baseline": 0.0
+    },
+    {
+      "iter": 866,
+      "ideal": "VNM",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 867,
+      "ideal": "KOR",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.301
+    },
+    {
+      "iter": 868,
+      "ideal": "ARM",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 869,
+      "ideal": "ISR",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 870,
+      "ideal": "HUN",
+      "arm": "boost_visa",
+      "reward": 0.3562,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 871,
+      "ideal": "HUN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 872,
+      "ideal": "CZE",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 873,
+      "ideal": "MYS",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 874,
+      "ideal": "EST",
+      "arm": "baseline",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 875,
+      "ideal": "LUX",
+      "arm": "boost_cost",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 876,
+      "ideal": "NOR",
+      "arm": "baseline",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 877,
+      "ideal": "NZL",
+      "arm": "boost_eu",
+      "reward": 0.3562,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 878,
+      "ideal": "ARG",
+      "arm": "boost_eu",
+      "reward": 0.3562,
+      "baseline": 0.301
+    },
+    {
+      "iter": 879,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 880,
+      "ideal": "COL",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 881,
+      "ideal": "CZE",
+      "arm": "boost_cost",
+      "reward": 0.4307,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 882,
+      "ideal": "BGR",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 883,
+      "ideal": "PRT",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 884,
+      "ideal": "MLT",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 885,
+      "ideal": "MYS",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 886,
+      "ideal": "IRL",
+      "arm": "boost_eu",
+      "reward": 0.3562,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 887,
+      "ideal": "ARG",
+      "arm": "boost_safety",
+      "reward": 0.4307,
+      "baseline": 0.0
+    },
+    {
+      "iter": 888,
+      "ideal": "PRT",
+      "arm": "boost_cost",
+      "reward": 0.301,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 889,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 890,
+      "ideal": "HUN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 891,
+      "ideal": "ARM",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 892,
+      "ideal": "BEL",
+      "arm": "boost_safety",
+      "reward": 0.6309,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 893,
+      "ideal": "NOR",
+      "arm": "boost_cost",
+      "reward": 0.4307,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 894,
+      "ideal": "POL",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 895,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 896,
+      "ideal": "PRT",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 897,
+      "ideal": "LTU",
+      "arm": "boost_health",
+      "reward": 0.3562,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 898,
+      "ideal": "ARM",
+      "arm": "boost_health",
+      "reward": 0.3562,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 899,
+      "ideal": "IRL",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 900,
+      "ideal": "TWN",
+      "arm": "boost_cost",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 901,
+      "ideal": "CHL",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 902,
+      "ideal": "ALB",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 903,
+      "ideal": "CAN",
+      "arm": "boost_eu",
+      "reward": 0.3333,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 904,
+      "ideal": "HUN",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 905,
+      "ideal": "PHL",
+      "arm": "boost_clean",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 906,
+      "ideal": "HRV",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 907,
+      "ideal": "IDN",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 908,
+      "ideal": "SVN",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 909,
+      "ideal": "HUN",
+      "arm": "boost_visa",
+      "reward": 0.301,
+      "baseline": 0.0
+    },
+    {
+      "iter": 910,
+      "ideal": "THA",
+      "arm": "boost_health",
+      "reward": 0.3869,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 911,
+      "ideal": "SWE",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 912,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 913,
+      "ideal": "CHE",
+      "arm": "baseline",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 914,
+      "ideal": "IRL",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 915,
+      "ideal": "GEO",
+      "arm": "boost_visa",
+      "reward": 0.5,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 916,
+      "ideal": "ECU",
+      "arm": "boost_visa",
+      "reward": 0.3155,
+      "baseline": 0.0
+    },
+    {
+      "iter": 917,
+      "ideal": "SWE",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 918,
+      "ideal": "AUS",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 919,
+      "ideal": "ALB",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 920,
+      "ideal": "SRB",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.0
+    },
+    {
+      "iter": 921,
+      "ideal": "NZL",
+      "arm": "boost_eu",
+      "reward": 0.4307,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 922,
+      "ideal": "ALB",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 923,
+      "ideal": "ISR",
+      "arm": "boost_cost",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 924,
+      "ideal": "GRC",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 925,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 926,
+      "ideal": "AUT",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 927,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.5,
+      "baseline": 0.5
+    },
+    {
+      "iter": 928,
+      "ideal": "HUN",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 929,
+      "ideal": "COL",
+      "arm": "boost_safety",
+      "reward": 0.3333,
+      "baseline": 0.0
+    },
+    {
+      "iter": 930,
+      "ideal": "IRL",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 931,
+      "ideal": "GRC",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 932,
+      "ideal": "GBR",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 933,
+      "ideal": "PER",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 934,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 935,
+      "ideal": "POL",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 936,
+      "ideal": "ARE",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 937,
+      "ideal": "ITA",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 938,
+      "ideal": "SRB",
+      "arm": "boost_visa",
+      "reward": 0.6309,
+      "baseline": 0.0
+    },
+    {
+      "iter": 939,
+      "ideal": "PER",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 940,
+      "ideal": "PER",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 941,
+      "ideal": "SGP",
+      "arm": "damp_gdp",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 942,
+      "ideal": "NOR",
+      "arm": "boost_cost",
+      "reward": 1.0,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 943,
+      "ideal": "GBR",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 944,
+      "ideal": "IRL",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 945,
+      "ideal": "EST",
+      "arm": "baseline",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 946,
+      "ideal": "GBR",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 0.5
+    },
+    {
+      "iter": 947,
+      "ideal": "LVA",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 948,
+      "ideal": "PER",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 949,
+      "ideal": "NZL",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 950,
+      "ideal": "MEX",
+      "arm": "boost_safety",
+      "reward": 1.0,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 951,
+      "ideal": "HRV",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 952,
+      "ideal": "MNE",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 953,
+      "ideal": "DEU",
+      "arm": "baseline",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 954,
+      "ideal": "ITA",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 955,
+      "ideal": "KOR",
+      "arm": "boost_eu",
+      "reward": 0.3869,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 956,
+      "ideal": "CZE",
+      "arm": "boost_cost",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 957,
+      "ideal": "THA",
+      "arm": "boost_health",
+      "reward": 0.4307,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 958,
+      "ideal": "IDN",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 959,
+      "ideal": "LUX",
+      "arm": "damp_gdp",
+      "reward": 0.4307,
+      "baseline": 1.0
+    },
+    {
+      "iter": 960,
+      "ideal": "BEL",
+      "arm": "boost_eu",
+      "reward": 0.4307,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 961,
+      "ideal": "HUN",
+      "arm": "damp_gdp",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 962,
+      "ideal": "HRV",
+      "arm": "baseline",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 963,
+      "ideal": "COL",
+      "arm": "boost_safety",
+      "reward": 0.4307,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 964,
+      "ideal": "AUS",
+      "arm": "boost_eu",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 965,
+      "ideal": "CHL",
+      "arm": "boost_safety",
+      "reward": 0.301,
+      "baseline": 0.0
+    },
+    {
+      "iter": 966,
+      "ideal": "SGP",
+      "arm": "damp_gdp",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 967,
+      "ideal": "SRB",
+      "arm": "boost_visa",
+      "reward": 1.0,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 968,
+      "ideal": "GEO",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 969,
+      "ideal": "NZL",
+      "arm": "boost_eu",
+      "reward": 0.3562,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 970,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 971,
+      "ideal": "DNK",
+      "arm": "damp_gdp",
+      "reward": 0.3155,
+      "baseline": 0.4307
+    },
+    {
+      "iter": 972,
+      "ideal": "JPN",
+      "arm": "boost_eu",
+      "reward": 0.301,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 973,
+      "ideal": "POL",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 974,
+      "ideal": "SGP",
+      "arm": "damp_gdp",
+      "reward": 0.4307,
+      "baseline": 0.3155
+    },
+    {
+      "iter": 975,
+      "ideal": "PRT",
+      "arm": "boost_cost",
+      "reward": 0.3155,
+      "baseline": 0.5
+    },
+    {
+      "iter": 976,
+      "ideal": "GEO",
+      "arm": "boost_visa",
+      "reward": 0.3562,
+      "baseline": 0.0
+    },
+    {
+      "iter": 977,
+      "ideal": "AUS",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 978,
+      "ideal": "IDN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 979,
+      "ideal": "COL",
+      "arm": "boost_safety",
+      "reward": 0.3869,
+      "baseline": 0.301
+    },
+    {
+      "iter": 980,
+      "ideal": "DNK",
+      "arm": "boost_cost",
+      "reward": 1.0,
+      "baseline": 1.0
+    },
+    {
+      "iter": 981,
+      "ideal": "ZAF",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 982,
+      "ideal": "BEL",
+      "arm": "boost_eu",
+      "reward": 0.4307,
+      "baseline": 1.0
+    },
+    {
+      "iter": 983,
+      "ideal": "PAN",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 984,
+      "ideal": "ESP",
+      "arm": "boost_safety",
+      "reward": 0.6309,
+      "baseline": 0.6309
+    },
+    {
+      "iter": 985,
+      "ideal": "ESP",
+      "arm": "boost_safety",
+      "reward": 0.3562,
+      "baseline": 0.3869
+    },
+    {
+      "iter": 986,
+      "ideal": "ROU",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 987,
+      "ideal": "CRI",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 988,
+      "ideal": "AUT",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 989,
+      "ideal": "KOR",
+      "arm": "boost_eu",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 990,
+      "ideal": "CYP",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 991,
+      "ideal": "CYP",
+      "arm": "boost_cost",
+      "reward": 0.0,
+      "baseline": 0.3333
+    },
+    {
+      "iter": 992,
+      "ideal": "ESP",
+      "arm": "boost_safety",
+      "reward": 0.4307,
+      "baseline": 0.3562
+    },
+    {
+      "iter": 993,
+      "ideal": "USA",
+      "arm": "boost_eu",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 994,
+      "ideal": "URY",
+      "arm": "boost_safety",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 995,
+      "ideal": "URY",
+      "arm": "boost_safety",
+      "reward": 0.5,
+      "baseline": 0.2891
+    },
+    {
+      "iter": 996,
+      "ideal": "IDN",
+      "arm": "boost_health",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 997,
+      "ideal": "IDN",
+      "arm": "boost_visa",
+      "reward": 0.0,
+      "baseline": 0.0
+    },
+    {
+      "iter": 998,
+      "ideal": "SGP",
+      "arm": "damp_gdp",
+      "reward": 0.6309,
+      "baseline": 0.5
+    },
+    {
+      "iter": 999,
+      "ideal": "BEL",
+      "arm": "baseline",
+      "reward": 0.0,
+      "baseline": 0.0
+    }
+  ],
+  "evaluation": {
+    "n_test": 200,
+    "baseline_ndcg": 0.2746,
+    "agent_ndcg": 0.3491,
+    "improvement_pct": 27.11,
+    "wins": 70,
+    "losses": 25,
+    "ties": 105,
+    "arm_distribution": {
+      "boost_safety": 42,
+      "boost_cost": 57,
+      "damp_gdp": 14,
+      "boost_eu": 26,
+      "boost_visa": 36,
+      "baseline": 21,
+      "boost_health": 4
+    }
+  },
+  "arm_pulls": {
+    "baseline": 116,
+    "boost_safety": 158,
+    "boost_health": 92,
+    "boost_cost": 161,
+    "boost_visa": 163,
+    "boost_eu": 150,
+    "damp_gdp": 128,
+    "boost_clean": 32
+  }
+}

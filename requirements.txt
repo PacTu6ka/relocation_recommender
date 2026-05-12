@@ -1,0 +1,11 @@
+streamlit==1.57.0
+pandas==3.0.3
+numpy==2.4.4
+scikit-learn==1.8.0
+plotly==6.7.0
+requests==2.34.0
+beautifulsoup4==4.14.3
+pycountry==26.2.16
+pycountry-convert==0.7.2
+hdbscan==0.8.42
+umap-learn==0.5.12

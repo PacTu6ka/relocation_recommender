@@ -1,0 +1,611 @@
+{
+  "n_profiles": 59,
+  "n_countries": 88,
+  "ndcg_at_10": 0.7608,
+  "ndcg_clean": 0.782,
+  "ndcg_noisy": 0.7483,
+  "ndcg_russian": 0.7368,
+  "hit_rate": 0.9661,
+  "hit_rate_russian": 1.0,
+  "coverage": 0.8523,
+  "diversity_at_10": 0.0508,
+  "rank_distribution": {
+    "1": 30,
+    "2": 14,
+    "3": 8,
+    "4": 4,
+    "7": 1
+  },
+  "per_profile": [
+    {
+      "idx": 0,
+      "ideal": "DEU",
+      "type": "clean",
+      "budget": 3500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0297,
+      "in_top10": true
+    },
+    {
+      "idx": 1,
+      "ideal": "NLD",
+      "type": "clean",
+      "budget": 5000.0,
+      "rank": 2,
+      "ndcg": 0.6309,
+      "diversity": 0.0355,
+      "in_top10": true
+    },
+    {
+      "idx": 2,
+      "ideal": "SWE",
+      "type": "clean",
+      "budget": 3500.0,
+      "rank": 2,
+      "ndcg": 0.6309,
+      "diversity": 0.0236,
+      "in_top10": true
+    },
+    {
+      "idx": 3,
+      "ideal": "NOR",
+      "type": "clean",
+      "budget": 5000.0,
+      "rank": 7,
+      "ndcg": 0.3333,
+      "diversity": 0.0355,
+      "in_top10": true
+    },
+    {
+      "idx": 4,
+      "ideal": "FIN",
+      "type": "clean",
+      "budget": 3500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0454,
+      "in_top10": true
+    },
+    {
+      "idx": 5,
+      "ideal": "CHE",
+      "type": "clean",
+      "budget": 10000.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0378,
+      "in_top10": true
+    },
+    {
+      "idx": 6,
+      "ideal": "AUT",
+      "type": "clean",
+      "budget": 5000.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0343,
+      "in_top10": true
+    },
+    {
+      "idx": 7,
+      "ideal": "BEL",
+      "type": "clean",
+      "budget": 3500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0279,
+      "in_top10": true
+    },
+    {
+      "idx": 8,
+      "ideal": "PRT",
+      "type": "clean",
+      "budget": 2500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0493,
+      "in_top10": true
+    },
+    {
+      "idx": 9,
+      "ideal": "ESP",
+      "type": "clean",
+      "budget": 2500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0637,
+      "in_top10": true
+    },
+    {
+      "idx": 10,
+      "ideal": "ITA",
+      "type": "clean",
+      "budget": 3500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0207,
+      "in_top10": true
+    },
+    {
+      "idx": 11,
+      "ideal": "GRC",
+      "type": "clean",
+      "budget": 2500.0,
+      "rank": 2,
+      "ndcg": 0.6309,
+      "diversity": 0.0455,
+      "in_top10": true
+    },
+    {
+      "idx": 12,
+      "ideal": "MLT",
+      "type": "clean",
+      "budget": 2500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0455,
+      "in_top10": true
+    },
+    {
+      "idx": 13,
+      "ideal": "CYP",
+      "type": "clean",
+      "budget": 3500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0539,
+      "in_top10": true
+    },
+    {
+      "idx": 14,
+      "ideal": "POL",
+      "type": "clean",
+      "budget": 2500.0,
+      "rank": null,
+      "ndcg": 0.0,
+      "diversity": 0.0498,
+      "in_top10": false
+    },
+    {
+      "idx": 15,
+      "ideal": "CZE",
+      "type": "clean",
+      "budget": 2500.0,
+      "rank": 4,
+      "ndcg": 0.4307,
+      "diversity": 0.034,
+      "in_top10": true
+    },
+    {
+      "idx": 16,
+      "ideal": "HUN",
+      "type": "clean",
+      "budget": 2500.0,
+      "rank": 2,
+      "ndcg": 0.6309,
+      "diversity": 0.0498,
+      "in_top10": true
+    },
+    {
+      "idx": 17,
+      "ideal": "ROU",
+      "type": "clean",
+      "budget": 1500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0382,
+      "in_top10": true
+    },
+    {
+      "idx": 18,
+      "ideal": "BGR",
+      "type": "clean",
+      "budget": 1500.0,
+      "rank": 3,
+      "ndcg": 0.5,
+      "diversity": 0.0336,
+      "in_top10": true
+    },
+    {
+      "idx": 19,
+      "ideal": "EST",
+      "type": "clean",
+      "budget": 3500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0267,
+      "in_top10": true
+    },
+    {
+      "idx": 20,
+      "ideal": "HRV",
+      "type": "clean",
+      "budget": 2500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0434,
+      "in_top10": true
+    },
+    {
+      "idx": 21,
+      "ideal": "SRB",
+      "type": "clean",
+      "budget": 1500.0,
+      "rank": 2,
+      "ndcg": 0.6309,
+      "diversity": 0.0356,
+      "in_top10": true
+    },
+    {
+      "idx": 22,
+      "ideal": "GEO",
+      "type": "clean",
+      "budget": 1500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0408,
+      "in_top10": true
+    },
+    {
+      "idx": 23,
+      "ideal": "ARM",
+      "type": "clean",
+      "budget": 1500.0,
+      "rank": 2,
+      "ndcg": 0.6309,
+      "diversity": 0.0408,
+      "in_top10": true
+    },
+    {
+      "idx": 24,
+      "ideal": "GBR",
+      "type": "clean",
+      "budget": 3500.0,
+      "rank": 3,
+      "ndcg": 0.5,
+      "diversity": 0.0296,
+      "in_top10": true
+    },
+    {
+      "idx": 25,
+      "ideal": "CAN",
+      "type": "noisy",
+      "budget": 3500.0,
+      "rank": 2,
+      "ndcg": 0.6309,
+      "diversity": 0.0387,
+      "in_top10": true
+    },
+    {
+      "idx": 26,
+      "ideal": "AUS",
+      "type": "noisy",
+      "budget": 3500.0,
+      "rank": 4,
+      "ndcg": 0.4307,
+      "diversity": 0.0336,
+      "in_top10": true
+    },
+    {
+      "idx": 27,
+      "ideal": "NZL",
+      "type": "noisy",
+      "budget": 3500.0,
+      "rank": 4,
+      "ndcg": 0.4307,
+      "diversity": 0.0322,
+      "in_top10": true
+    },
+    {
+      "idx": 28,
+      "ideal": "USA",
+      "type": "noisy",
+      "budget": 3500.0,
+      "rank": 2,
+      "ndcg": 0.6309,
+      "diversity": 0.0267,
+      "in_top10": true
+    },
+    {
+      "idx": 29,
+      "ideal": "MEX",
+      "type": "noisy",
+      "budget": 1500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0544,
+      "in_top10": true
+    },
+    {
+      "idx": 30,
+      "ideal": "BRA",
+      "type": "noisy",
+      "budget": 1500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0354,
+      "in_top10": true
+    },
+    {
+      "idx": 31,
+      "ideal": "ARG",
+      "type": "noisy",
+      "budget": 1500.0,
+      "rank": 3,
+      "ndcg": 0.5,
+      "diversity": 0.0411,
+      "in_top10": true
+    },
+    {
+      "idx": 32,
+      "ideal": "COL",
+      "type": "noisy",
+      "budget": 1500.0,
+      "rank": 2,
+      "ndcg": 0.6309,
+      "diversity": 0.0475,
+      "in_top10": true
+    },
+    {
+      "idx": 33,
+      "ideal": "CHL",
+      "type": "noisy",
+      "budget": 1500.0,
+      "rank": 3,
+      "ndcg": 0.5,
+      "diversity": 0.0558,
+      "in_top10": true
+    },
+    {
+      "idx": 34,
+      "ideal": "URY",
+      "type": "noisy",
+      "budget": 2500.0,
+      "rank": 2,
+      "ndcg": 0.6309,
+      "diversity": 0.0632,
+      "in_top10": true
+    },
+    {
+      "idx": 35,
+      "ideal": "PAN",
+      "type": "noisy",
+      "budget": 2500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0674,
+      "in_top10": true
+    },
+    {
+      "idx": 36,
+      "ideal": "ARE",
+      "type": "noisy",
+      "budget": 2500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0662,
+      "in_top10": true
+    },
+    {
+      "idx": 37,
+      "ideal": "ISR",
+      "type": "noisy",
+      "budget": 5000.0,
+      "rank": 2,
+      "ndcg": 0.6309,
+      "diversity": 0.0674,
+      "in_top10": true
+    },
+    {
+      "idx": 38,
+      "ideal": "JPN",
+      "type": "noisy",
+      "budget": 2500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0476,
+      "in_top10": true
+    },
+    {
+      "idx": 39,
+      "ideal": "KOR",
+      "type": "noisy",
+      "budget": 3500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0284,
+      "in_top10": true
+    },
+    {
+      "idx": 40,
+      "ideal": "TWN",
+      "type": "noisy",
+      "budget": 2500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0475,
+      "in_top10": true
+    },
+    {
+      "idx": 41,
+      "ideal": "SGP",
+      "type": "noisy",
+      "budget": 8000.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0799,
+      "in_top10": true
+    },
+    {
+      "idx": 42,
+      "ideal": "THA",
+      "type": "noisy",
+      "budget": 1500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0711,
+      "in_top10": true
+    },
+    {
+      "idx": 43,
+      "ideal": "MYS",
+      "type": "noisy",
+      "budget": 1500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0444,
+      "in_top10": true
+    },
+    {
+      "idx": 44,
+      "ideal": "IDN",
+      "type": "noisy",
+      "budget": 1500.0,
+      "rank": 2,
+      "ndcg": 0.6309,
+      "diversity": 0.0712,
+      "in_top10": true
+    },
+    {
+      "idx": 45,
+      "ideal": "VNM",
+      "type": "noisy",
+      "budget": 1500.0,
+      "rank": 4,
+      "ndcg": 0.4307,
+      "diversity": 0.0812,
+      "in_top10": true
+    },
+    {
+      "idx": 46,
+      "ideal": "IND",
+      "type": "noisy",
+      "budget": 1500.0,
+      "rank": null,
+      "ndcg": 0.0,
+      "diversity": 0.0329,
+      "in_top10": false
+    },
+    {
+      "idx": 47,
+      "ideal": "MAR",
+      "type": "noisy",
+      "budget": 1500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0633,
+      "in_top10": true
+    },
+    {
+      "idx": 48,
+      "ideal": "ZAF",
+      "type": "noisy",
+      "budget": 1500.0,
+      "rank": 2,
+      "ndcg": 0.6309,
+      "diversity": 0.0693,
+      "in_top10": true
+    },
+    {
+      "idx": 49,
+      "ideal": "DEU",
+      "type": "noisy",
+      "budget": 3500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0499,
+      "in_top10": true
+    },
+    {
+      "idx": 50,
+      "ideal": "GEO",
+      "type": "russian",
+      "budget": 1500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0795,
+      "in_top10": true
+    },
+    {
+      "idx": 51,
+      "ideal": "ARM",
+      "type": "russian",
+      "budget": 1500.0,
+      "rank": 2,
+      "ndcg": 0.6309,
+      "diversity": 0.0795,
+      "in_top10": true
+    },
+    {
+      "idx": 52,
+      "ideal": "SRB",
+      "type": "russian",
+      "budget": 1500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0679,
+      "in_top10": true
+    },
+    {
+      "idx": 53,
+      "ideal": "ARE",
+      "type": "russian",
+      "budget": 2500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0895,
+      "in_top10": true
+    },
+    {
+      "idx": 54,
+      "ideal": "THA",
+      "type": "russian",
+      "budget": 1500.0,
+      "rank": 1,
+      "ndcg": 1.0,
+      "diversity": 0.0783,
+      "in_top10": true
+    },
+    {
+      "idx": 55,
+      "ideal": "MNE",
+      "type": "russian",
+      "budget": 1500.0,
+      "rank": 3,
+      "ndcg": 0.5,
+      "diversity": 0.0679,
+      "in_top10": true
+    },
+    {
+      "idx": 56,
+      "ideal": "IDN",
+      "type": "russian",
+      "budget": 1500.0,
+      "rank": 3,
+      "ndcg": 0.5,
+      "diversity": 0.0785,
+      "in_top10": true
+    },
+    {
+      "idx": 57,
+      "ideal": "ARG",
+      "type": "russian",
+      "budget": 1500.0,
+      "rank": 3,
+      "ndcg": 0.5,
+      "diversity": 0.0835,
+      "in_top10": true
+    },
+    {
+      "idx": 58,
+      "ideal": "MEX",
+      "type": "russian",
+      "budget": 1500.0,
+      "rank": 3,
+      "ndcg": 0.5,
+      "diversity": 0.0885,
+      "in_top10": true
+    }
+  ]
+}
