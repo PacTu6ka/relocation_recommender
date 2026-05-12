@@ -30,3 +30,7 @@ Thumbs.db
 
 # Streamlit cache
 .streamlit/secrets.toml
+
+# Local-only files
+build_doc.js
+Relocation_Recommender_Documentation.docx
