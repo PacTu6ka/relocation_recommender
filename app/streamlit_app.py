@@ -279,6 +279,28 @@ hr {
 
 /* hide streamlit branding */
 #MainMenu, footer, header { visibility: hidden; }
+
+/* ── sidebar toggle button (collapse / expand) ───────────────────────── */
+[data-testid="collapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 999999 !important;
+    background: #12121d !important;
+    border: 1px solid rgba(252,238,12,0.5) !important;
+    border-radius: 0 4px 4px 0 !important;
+    box-shadow: 2px 0 8px rgba(252,238,12,0.2) !important;
+    color: #fcee0c !important;
+}
+[data-testid="collapsedControl"]:hover {
+    background: rgba(252,238,12,0.15) !important;
+    border-color: #fcee0c !important;
+    box-shadow: 2px 0 14px rgba(252,238,12,0.4) !important;
+}
+[data-testid="collapsedControl"] svg {
+    fill: #fcee0c !important;
+    color: #fcee0c !important;
+}
 </style>
 """
 
