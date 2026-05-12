@@ -282,6 +282,104 @@ hr {
 </style>
 """
 
+# ── Russian country name translations ────────────────────────────────────────
+COUNTRY_RU: dict[str, str] = {
+    # Europe
+    "Germany":            "Германия",
+    "Portugal":           "Португалия",
+    "Spain":              "Испания",
+    "France":             "Франция",
+    "Netherlands":        "Нидерланды",
+    "Italy":              "Италия",
+    "Switzerland":        "Швейцария",
+    "Austria":            "Австрия",
+    "Belgium":            "Бельгия",
+    "Ireland":            "Ирландия",
+    "United Kingdom":     "Великобритания",
+    "Sweden":             "Швеция",
+    "Norway":             "Норвегия",
+    "Denmark":            "Дания",
+    "Finland":            "Финляндия",
+    "Iceland":            "Исландия",
+    "Poland":             "Польша",
+    "Czech Republic":     "Чехия",
+    "Hungary":            "Венгрия",
+    "Slovakia":           "Словакия",
+    "Slovenia":           "Словения",
+    "Romania":            "Румыния",
+    "Bulgaria":           "Болгария",
+    "Croatia":            "Хорватия",
+    "Greece":             "Греция",
+    "Malta":              "Мальта",
+    "Cyprus":             "Кипр",
+    "Estonia":            "Эстония",
+    "Latvia":             "Латвия",
+    "Lithuania":          "Литва",
+    "Serbia":             "Сербия",
+    "Montenegro":         "Черногория",
+    "Albania":            "Албания",
+    "Luxembourg":         "Люксембург",
+    "Bosnia and Herzegovina": "Босния и Герцеговина",
+    "North Macedonia":    "Северная Македония",
+    "Moldova":            "Молдова",
+    "Ukraine":            "Украина",
+    "Belarus":            "Беларусь",
+    # Caucasus & Turkey
+    "Georgia":            "Грузия",
+    "Armenia":            "Армения",
+    "Turkey":             "Турция",
+    "Azerbaijan":         "Азербайджан",
+    # Middle East
+    "United Arab Emirates": "ОАЭ",
+    "Israel":             "Израиль",
+    "Saudi Arabia":       "Саудовская Аравия",
+    "Qatar":              "Катар",
+    "Kuwait":             "Кувейт",
+    "Bahrain":            "Бахрейн",
+    "Jordan":             "Иордания",
+    # North America
+    "United States":      "США",
+    "Canada":             "Канада",
+    "Mexico":             "Мексика",
+    "Panama":             "Панама",
+    "Costa Rica":         "Коста-Рика",
+    # South America
+    "Brazil":             "Бразилия",
+    "Argentina":          "Аргентина",
+    "Colombia":           "Колумбия",
+    "Chile":              "Чили",
+    "Uruguay":            "Уругвай",
+    "Paraguay":           "Парагвай",
+    "Ecuador":            "Эквадор",
+    "Peru":               "Перу",
+    "Venezuela":          "Венесуэла",
+    "Bolivia":            "Боливия",
+    # Asia-Pacific
+    "Japan":              "Япония",
+    "South Korea":        "Южная Корея",
+    "Singapore":          "Сингапур",
+    "Taiwan":             "Тайвань",
+    "Hong Kong":          "Гонконг",
+    "China":              "Китай",
+    "Thailand":           "Таиланд",
+    "Malaysia":           "Малайзия",
+    "Indonesia":          "Индонезия",
+    "Vietnam":            "Вьетнам",
+    "Philippines":        "Филиппины",
+    "Australia":          "Австралия",
+    "New Zealand":        "Новая Зеландия",
+    "India":              "Индия",
+    "Kazakhstan":         "Казахстан",
+    "Uzbekistan":         "Узбекистан",
+    # Africa
+    "Morocco":            "Марокко",
+    "South Africa":       "ЮАР",
+    "Egypt":              "Египет",
+    "Kenya":              "Кения",
+    "Nigeria":            "Нигерия",
+}
+
+
 # ── radar axes ────────────────────────────────────────────────────────────────
 RADAR_AXES: list[tuple[str, str, bool]] = [
     ("safety_index",          "Безопасность",      False),
@@ -493,9 +591,11 @@ def _build_top10_display(rec: pd.DataFrame, df: pd.DataFrame, russian_mode: bool
     rows = []
     for iso3, row in rec.iterrows():
         raw = df.loc[iso3] if iso3 in df.index else pd.Series(dtype=float)
+        en_name = raw.get("country", iso3)
         entry: dict = {
             "ISO3":              iso3,
-            "Страна":            raw.get("country", iso3),
+            "Страна":            en_name,
+            "На русском":        COUNTRY_RU.get(en_name, "—"),
             "Оценка":            round(row["score"], 4),
             "Стоимость жизни":   round(float(raw.get("cost_of_living_index", 0)), 3),
             "Безопасность":      round(float(raw.get("safety_index", 0)), 3),
