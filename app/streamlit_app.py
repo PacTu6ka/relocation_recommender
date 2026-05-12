@@ -24,7 +24,7 @@ from recommender import _LANG_COUNTRIES, _LOWER_IS_BETTER, _WARM_CLIMATE
 
 # ── page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="ПЕРЕЕЗД // РЕКОМЕНДАТЕЛЬ",
+    page_title="ПЕРЕЕЗД РЕКОМЕНДАТЕЛЬ",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -419,12 +419,12 @@ LANG_OPTIONS = sorted(LANG_DISPLAY_TO_INTERNAL.keys())
 
 # ── caching ───────────────────────────────────────────────────────────────────
 
-@st.cache_data(show_spinner="// ЗАГРУЗКА ДАННЫХ ...")
+@st.cache_data(show_spinner="ЗАГРУЗКА ДАННЫХ ...")
 def load_data() -> pd.DataFrame:
     return pd.read_csv(PROCESSED_PATH, index_col="iso3")
 
 
-@st.cache_data(show_spinner="// РАСЧЁТ РЕКОМЕНДАЦИЙ ...")
+@st.cache_data(show_spinner="РАСЧЁТ РЕКОМЕНДАЦИЙ ...")
 def cached_recommend(
     budget: float,
     safety: int,
@@ -575,7 +575,7 @@ def _build_radar(iso3: str, df: pd.DataFrame) -> go.Figure:
         ),
         showlegend=False,
         title=dict(
-            text=f"// {country_name.upper()}",
+            text=f"{country_name.upper()}",
             font=dict(size=18, color=C_YELLOW, family="Exo 2"),
             x=0.5,
         ),
@@ -622,12 +622,12 @@ def _build_top10_display(rec: pd.DataFrame, df: pd.DataFrame, russian_mode: bool
 def render_sidebar() -> tuple[UserProfile, int]:
     with st.sidebar:
         st.markdown(
-            "<h2 style='margin-top:0'>// КОНФИГУРАЦИЯ</h2>",
+            "<h2 style='margin-top:0'>КОНФИГУРАЦИЯ</h2>",
             unsafe_allow_html=True,
         )
 
         # ── Russian user preset ──────────────────────────────────────────
-        st.markdown("<h3>// ПРОФИЛЬ РОССИЯНИНА</h3>", unsafe_allow_html=True)
+        st.markdown("<h3>ПРОФИЛЬ РОССИЯНИНА</h3>", unsafe_allow_html=True)
         user_is_russian = st.checkbox(
             "Я ИЗ РОССИИ",
             value=True,
@@ -666,7 +666,7 @@ def render_sidebar() -> tuple[UserProfile, int]:
                  "страны с cost_of_living_index выше порога исключаются.",
         )
 
-        st.markdown("<h3>// ПРИОРИТЕТЫ</h3>", unsafe_allow_html=True)
+        st.markdown("<h3>ПРИОРИТЕТЫ</h3>", unsafe_allow_html=True)
 
         safety = st.slider(
             "БЕЗОПАСНОСТЬ", 1, 5, 3,
@@ -689,7 +689,7 @@ def render_sidebar() -> tuple[UserProfile, int]:
             help="Приоритет качества медицины (1 = не важно, 5 = критично).",
         )
 
-        st.markdown("<h3>// ЯЗЫКИ</h3>", unsafe_allow_html=True)
+        st.markdown("<h3>ЯЗЫКИ</h3>", unsafe_allow_html=True)
         default_langs = ["Русский", "Английский"] if user_is_russian else ["Английский"]
         langs_ru = st.multiselect(
             "ЗНАКОМЫЕ ЯЗЫКИ",
@@ -702,7 +702,7 @@ def render_sidebar() -> tuple[UserProfile, int]:
         top_n = st.slider("ТОП-N РЕЗУЛЬТАТОВ", 5, 30, 10)
 
         st.caption(
-            "// алгоритм: взвешенное косинусное сходство между профилем "
+            "алгоритм: взвешенное косинусное сходство между профилем "
             "и признаками страны + бонусы за кластер / климат / язык"
             + (" / безвиз РФ / санкции / банкинг" if user_is_russian else "")
         )
@@ -728,7 +728,7 @@ def render_sidebar() -> tuple[UserProfile, int]:
 
 VISA_INFO_BLOCK = """
 <div class="cyberpunk-info">
-<b>// ЛЁГКОСТЬ ВИЗЫ И СЛОЖНОСТЬ ВИЗЫ — что это</b><br><br>
+<b>ЛЁГКОСТЬ ВИЗЫ И СЛОЖНОСТЬ ВИЗЫ — что это</b><br><br>
 
 В системе есть <b>два связанных параметра</b>:
 <br><br>
@@ -772,7 +772,7 @@ VISA_INFO_BLOCK = """
 
 RU_MODE_INFO_BLOCK = """
 <div class="cyberpunk-info">
-<b>// РЕЖИМ «Я ИЗ РОССИИ» — как он влияет на рекомендации</b><br><br>
+<b>РЕЖИМ «Я ИЗ РОССИИ» — как он влияет на рекомендации</b><br><br>
 
 Когда флажок <b>«Я ИЗ РОССИИ»</b> активен, система учитывает три дополнительных
 фактора, специфичных для граждан РФ:<br><br>
@@ -813,7 +813,7 @@ def main() -> None:
     st.markdown(
         """
         <div style="margin-top:-30px">
-            <p class="cyberpunk-title">ПЕРЕЕЗД // РЕКОМЕНДАТЕЛЬ</p>
+            <p class="cyberpunk-title">ПЕРЕЕЗД РЕКОМЕНДАТЕЛЬ</p>
             <p class="cyberpunk-subtitle">
                 версия 2.077 &nbsp;|&nbsp; подбор страны по профилю &nbsp;|&nbsp;
                 world bank · numbeo · linucb
@@ -825,7 +825,7 @@ def main() -> None:
 
     if not PROCESSED_PATH.exists():
         st.error(
-            f"// ДАННЫЕ ОТСУТСТВУЮТ: `{PROCESSED_PATH.relative_to(_ROOT)}` не найден.\n\n"
+            f"ДАННЫЕ ОТСУТСТВУЮТ: `{PROCESSED_PATH.relative_to(_ROOT)}` не найден.\n\n"
             "Запустите пайплайн предобработки:\n"
             "```\n"
             "python src/data_collector.py\n"
@@ -851,20 +851,20 @@ def main() -> None:
             has_eu_visa=profile.has_eu_visa,
         )
     except ValueError as exc:
-        st.warning(f"// СБОЙ: {exc}")
+        st.warning(f"СБОЙ: {exc}")
         st.stop()
 
     # ── visa info block ──────────────────────────────────────────────────
-    with st.expander("// ПОКАЗАТЬ ОБЪЯСНЕНИЕ ПАРАМЕТРА «СЛОЖНОСТЬ ВИЗЫ»", expanded=False):
+    with st.expander("ПОКАЗАТЬ ОБЪЯСНЕНИЕ ПАРАМЕТРА «СЛОЖНОСТЬ ВИЗЫ»", expanded=False):
         st.markdown(VISA_INFO_BLOCK, unsafe_allow_html=True)
 
     # ── Russian-specific info block ──────────────────────────────────────
     if profile.user_is_russian:
-        with st.expander("// КАК РАБОТАЕТ РЕЖИМ «Я ИЗ РОССИИ»", expanded=False):
+        with st.expander("КАК РАБОТАЕТ РЕЖИМ «Я ИЗ РОССИИ»", expanded=False):
             st.markdown(RU_MODE_INFO_BLOCK, unsafe_allow_html=True)
 
     # ── choropleth ────────────────────────────────────────────────────────
-    st.markdown("## // КАРТА СОВМЕСТИМОСТИ СТРАН")
+    st.markdown("## КАРТА СОВМЕСТИМОСТИ СТРАН")
     choropleth_fig = _build_choropleth(df, rec)
 
     map_event = st.plotly_chart(
@@ -884,7 +884,7 @@ def main() -> None:
         st.session_state["selected_iso3"] = map_selected
 
     # ── top-N table ───────────────────────────────────────────────────────
-    st.markdown(f"## // ТОП-{top_n} СТРАН ДЛЯ ПЕРЕЕЗДА")
+    st.markdown(f"## ТОП-{top_n} СТРАН ДЛЯ ПЕРЕЕЗДА")
 
     rec_topn   = rec.head(top_n)
     display_df = _build_top10_display(rec_topn, df, russian_mode=profile.user_is_russian)
@@ -912,7 +912,7 @@ def main() -> None:
     country_name = df.loc[selected, "country"] if "country" in df.columns else selected
 
     st.markdown("---")
-    st.markdown(f"## // ДЕТАЛЬНЫЙ АНАЛИЗ — {country_name.upper()} [{selected}]")
+    st.markdown(f"## ДЕТАЛЬНЫЙ АНАЛИЗ — {country_name.upper()} [{selected}]")
 
     col_radar, col_explain = st.columns([1, 1], gap="large")
 
@@ -939,7 +939,7 @@ def main() -> None:
                 r3.metric("БАНКИНГ РФ",     f"{row.get('ru_banking_bonus', 0):+.3f}")
 
     with col_explain:
-        st.markdown("### // ПОЧЕМУ ЭТА СТРАНА?")
+        st.markdown("### ПОЧЕМУ ЭТА СТРАНА?")
         if selected in rec.index:
             explanation = explain(
                 country_iso3=selected,
@@ -949,10 +949,10 @@ def main() -> None:
             )
             st.code(explanation, language=None)
         else:
-            st.info("// страна отфильтрована по бюджету")
+            st.info("страна отфильтрована по бюджету")
 
     # ── weight chart (collapsed) ──────────────────────────────────────────
-    with st.expander("// ВЕСА ПРИЗНАКОВ ДЛЯ ВАШЕГО ПРОФИЛЯ", expanded=False):
+    with st.expander("ВЕСА ПРИЗНАКОВ ДЛЯ ВАШЕГО ПРОФИЛЯ", expanded=False):
         weights = profile_to_weights(profile)
         w_df = (
             pd.DataFrame.from_dict(weights, orient="index", columns=["weight"])
