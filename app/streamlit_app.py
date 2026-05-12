@@ -601,7 +601,7 @@ def _build_top10_display(rec: pd.DataFrame, df: pd.DataFrame, russian_mode: bool
             "Безопасность":      round(float(raw.get("safety_index", 0)), 3),
             "Сложность визы":    round(float(raw.get("residency_difficulty", 0)), 3),
             "ЕС":                "[+]" if raw.get("eu_member", 0) else "[ ]",
-            "Виза номада":       "[+]" if raw.get("digital_nomad_visa", 0) else "[ ]",
+            "Виза":              "[+]" if raw.get("digital_nomad_visa", 0) else "[ ]",
             "Климат":            "ТЁПЛЫЙ" if iso3 in _WARM_CLIMATE else "УМЕР.",
         }
         if russian_mode:
