@@ -451,6 +451,31 @@ def load_data() -> pd.DataFrame:
     return pd.read_csv(PROCESSED_PATH, index_col="iso3")
 
 
+@st.cache_data(show_spinner=False)
+def get_silhouette() -> dict:
+    """Вычисляет Silhouette Score для оптимального K, кешируется."""
+    from sklearn.metrics import silhouette_score
+    from sklearn.preprocessing import StandardScaler
+
+    df = load_data()
+    meta_cols = {"country", "cluster", "cluster_hdbscan", "cluster_label", "umap_x", "umap_y"}
+    feature_cols = [
+        c for c in df.columns
+        if c not in meta_cols and pd.api.types.is_numeric_dtype(df[c])
+    ]
+    X = df[feature_cols].fillna(df[feature_cols].median()).values
+    X_scaled = StandardScaler().fit_transform(X)
+
+    df_c = get_clustered_df()
+    labels = df_c["cluster"].values
+    score  = silhouette_score(X_scaled, labels)
+    return {
+        "score":      round(float(score), 4),
+        "k":          int(df_c["cluster"].nunique()),
+        "n":          len(df_c),
+    }
+
+
 @st.cache_data(show_spinner="КЛАСТЕРИЗАЦИЯ ...")
 def get_clustered_df() -> pd.DataFrame:
     """KMeans + label_clusters, cached for the session."""
@@ -1021,10 +1046,19 @@ def main() -> None:
     st.markdown("---")
     with st.expander("КЛАСТЕРЫ СТРАН (UMAP 2D)", expanded=False):
         df_c = get_clustered_df()
+        sil  = get_silhouette()
         n_clusters = df_c["cluster_label"].nunique()
+
+        # ── метрики кластеризации ──────────────────────────────────────────
+        mc1, mc2, mc3 = st.columns(3)
+        mc1.metric("КЛАСТЕРОВ (K)",        str(sil["k"]))
+        mc2.metric("SILHOUETTE SCORE",     f"{sil['score']:.4f}",
+                   help="Диапазон: −1 … +1. Чем выше — тем плотнее кластеры и чётче границы между ними. Выше 0.25 считается хорошим результатом.")
+        mc3.metric("СТРАН В ВЫБОРКЕ",      str(sil["n"]))
+
         st.markdown(
-            f"Все **{len(df_c)}** стран разбиты на **{n_clusters} кластера** методом KMeans "
-            f"(оптимальное K по Silhouette Score). Карта построена через UMAP — "
+            f"Оптимальное K подобрано автоматически по максимальному Silhouette Score "
+            f"из диапазона 4–12. Карта построена через UMAP (23 признака → 2D) — "
             f"близкие точки похожи по экономике, безопасности, стоимости жизни и визовому режиму."
         )
         st.plotly_chart(_build_cluster_scatter(df_c), use_container_width=True)
