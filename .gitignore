@@ -33,4 +33,6 @@ Thumbs.db
 
 # Local-only files
 build_doc.js
+build_speech.js
 Relocation_Recommender_Documentation.docx
+Speech_and_QA.docx

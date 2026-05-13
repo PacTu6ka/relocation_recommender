@@ -277,10 +277,12 @@ hr {
     font-size: 0.85rem;
 }
 
-/* hide streamlit branding — только логотип и меню, не трогаем кнопку сайдбара */
+/* hide streamlit branding */
 #MainMenu, footer { visibility: hidden; }
-header { visibility: hidden; }
-header [data-testid="collapsedControl"] { visibility: visible !important; }
+header {
+    background: transparent !important;
+    border: none !important;
+}
 
 /* ── sidebar toggle button (collapse / expand) ───────────────────────── */
 [data-testid="collapsedControl"] {
@@ -831,33 +833,6 @@ RU_MODE_INFO_BLOCK = """
 
 def main() -> None:
     st.markdown(CYBERPUNK_CSS, unsafe_allow_html=True)
-
-    # ── кнопка открытия сайдбара (фиксированная, всегда видна) ───────────
-    st.markdown("""
-    <button onclick="
-        var btn = window.parent.document.querySelector('[data-testid=collapsedControl]');
-        if (btn) btn.click();
-    " style="
-        position: fixed;
-        top: 14px;
-        left: 14px;
-        z-index: 9999999;
-        background: #12121d;
-        border: 1px solid #fcee0c;
-        color: #fcee0c;
-        font-family: 'Exo 2', sans-serif;
-        font-size: 18px;
-        font-weight: bold;
-        width: 36px;
-        height: 36px;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 0 10px rgba(252,238,12,0.4);
-        transition: box-shadow 0.2s;
-    " title="Открыть / закрыть панель">&#9776;</button>
-    """, unsafe_allow_html=True)
 
     # ── hero title ────────────────────────────────────────────────────────
     st.markdown(
