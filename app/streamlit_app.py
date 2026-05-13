@@ -749,84 +749,6 @@ def render_sidebar() -> tuple[UserProfile, int]:
     return profile, top_n
 
 
-# ── visa difficulty explainer block ──────────────────────────────────────────
-
-VISA_INFO_BLOCK = """
-<div class="cyberpunk-info">
-<b>ЛЁГКОСТЬ ВИЗЫ И СЛОЖНОСТЬ ВИЗЫ — что это</b><br><br>
-
-В системе есть <b>два связанных параметра</b>:
-<br><br>
-
-<b>1. Слайдер «ЛЁГКОСТЬ ВИЗЫ» (1–5)</b> — это ваш приоритет:
-насколько вам важно, чтобы получить ВНЖ или гражданство было просто.
-Он управляет весом следующих признаков страны:
-<code>residency_difficulty</code>, <code>digital_nomad_visa</code>,
-<code>visa_free_count</code>, <code>eu_member</code>, <code>schengen</code>.
-<br><br>
-
-<b>2. Признак страны «Сложность визы» (residency_difficulty, шкала 1–5)</b>
-— объективная оценка того, насколько сложно получить долгосрочное
-резидентство в конкретной стране. После MinMax-нормализации хранится в
-[0, 1]: <b>0 = легче всего, 1 = сложнее всего</b>.
-<br><br>
-
-<b>Расшифровка шкалы 1–5:</b>
-<br>
-&nbsp;&nbsp;<code>1</code> &nbsp;Очень легко — <b>GEO, PAN, PRY, ALB, MNE, SRB</b>
-(длительный безвиз или поселение по факту проживания)
-<br>
-&nbsp;&nbsp;<code>2</code> &nbsp;Легко — <b>PRT D7, ESP non-lucrative, MEX, MYS MM2H</b>
-(понятный путь при наличии пассивного дохода)
-<br>
-&nbsp;&nbsp;<code>3</code> &nbsp;Средне — <b>DEU, FRA, NLD, CZE, AUT, AUS</b>
-(стандартные рабочие / семейные / бизнес-визы)
-<br>
-&nbsp;&nbsp;<code>4</code> &nbsp;Сложно — <b>USA, CAN, CHE, JPN, KOR, ISR, DNK</b>
-(квоты, спонсорство, высокие пороги)
-<br>
-&nbsp;&nbsp;<code>5</code> &nbsp;Очень сложно — закрытые системы, длинные сроки
-<br><br>
-
-В колонке таблицы <b>«Сложность визы»</b> вы видите нормализованное
-значение [0, 1]: чем выше — тем сложнее переехать. Чтобы система
-рекомендовала простые страны, увеличьте слайдер <b>ЛЁГКОСТЬ ВИЗЫ</b>.
-</div>
-"""
-
-
-RU_MODE_INFO_BLOCK = """
-<div class="cyberpunk-info">
-<b>РЕЖИМ «Я ИЗ РОССИИ» — как он влияет на рекомендации</b><br><br>
-
-Когда флажок <b>«Я ИЗ РОССИИ»</b> активен, система учитывает три дополнительных
-фактора, специфичных для граждан РФ:<br><br>
-
-<b>1. Безвизовый въезд с паспортом РФ</b> (<code>ru_visa_free</code>)<br>
-Страны, куда россиянин может въехать без визы или по visa-on-arrival,
-получают бонус <code>+0.08</code> к оценке. Если у вас <b>нет шенгенской визы</b>,
-а страна входит в Шенген и требует визу — дополнительный штраф <code>-0.04</code>.
-<br><br>
-
-<b>2. Санкционный риск</b> (<code>ru_sanctions_risk</code>, шкала 1–3)<br>
-&nbsp;&nbsp;<code>1</code> — Низкий: нет ограничений для россиян (<b>GEO, ARM, SRB, TUR, ARE, THA</b>)<br>
-&nbsp;&nbsp;<code>2</code> — Средний: частичные ограничения (<b>HUN, ISR, KOR, SGP</b>)<br>
-&nbsp;&nbsp;<code>3</code> — Высокий: полный пакет санкций, сложности с банками и визами
-(<b>USA, GBR, EU, CAN, AUS, JPN, CHE</b>)<br>
-Штраф пропорционален уровню: <code>-0.06 * risk</code>.<br><br>
-
-<b>3. Доступность банков для россиян</b> (<code>ru_banking_access</code>, шкала 1–5)<br>
-&nbsp;&nbsp;<code>5</code> — Открытие счёта без проблем (<b>ARM, GEO, SRB</b>)<br>
-&nbsp;&nbsp;<code>4</code> — Возможно с документами (<b>TUR, ARE, THA, MNE</b>)<br>
-&nbsp;&nbsp;<code>3</code> — С трудностями (<b>ISR, MEX, BRA, LatAm</b>)<br>
-&nbsp;&nbsp;<code>2</code> — Сложно, отказы часты (<b>EU</b>)<br>
-&nbsp;&nbsp;<code>1</code> — Практически невозможно (<b>USA, GBR, CHE, EST, LVA, LTU</b>)<br>
-Если включён флажок <b>«Нужен банковский счёт»</b>, бонус <code>+0.04 * access</code>.<br><br>
-
-<b>«Есть шенгенская / ЕС виза»</b> — если у вас уже есть действующая виза,
-дополнительный штраф за Шенген-страны снимается.
-</div>
-"""
 
 
 # ── main layout ───────────────────────────────────────────────────────────────
@@ -878,15 +800,6 @@ def main() -> None:
     except ValueError as exc:
         st.warning(f"СБОЙ: {exc}")
         st.stop()
-
-    # ── visa info block ──────────────────────────────────────────────────
-    with st.expander("ПОКАЗАТЬ ОБЪЯСНЕНИЕ ПАРАМЕТРА «СЛОЖНОСТЬ ВИЗЫ»", expanded=False):
-        st.markdown(VISA_INFO_BLOCK, unsafe_allow_html=True)
-
-    # ── Russian-specific info block ──────────────────────────────────────
-    if profile.user_is_russian:
-        with st.expander("КАК РАБОТАЕТ РЕЖИМ «Я ИЗ РОССИИ»", expanded=False):
-            st.markdown(RU_MODE_INFO_BLOCK, unsafe_allow_html=True)
 
     # ── choropleth ────────────────────────────────────────────────────────
     st.markdown("## КАРТА СОВМЕСТИМОСТИ СТРАН")
