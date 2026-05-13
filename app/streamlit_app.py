@@ -483,7 +483,7 @@ def get_clustered_df() -> pd.DataFrame:
     from sklearn.preprocessing import StandardScaler
 
     df = load_data()
-    df_km = run_kmeans(df, k_range=(4, 12), random_state=42)
+    df_km = run_kmeans(df, k_range=(4, 8), random_state=42)
     df_labeled = label_clusters(df_km, cluster_col="cluster")
 
     # UMAP 2-D embedding
