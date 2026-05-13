@@ -21,6 +21,7 @@ import streamlit as st
 
 from recommender import UserProfile, explain, profile_to_weights, recommend
 from recommender import _LANG_COUNTRIES, _LOWER_IS_BETTER, _WARM_CLIMATE
+from clusterer import run_kmeans, label_clusters
 
 # ── page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -448,6 +449,100 @@ LANG_OPTIONS = sorted(LANG_DISPLAY_TO_INTERNAL.keys())
 @st.cache_data(show_spinner="ЗАГРУЗКА ДАННЫХ ...")
 def load_data() -> pd.DataFrame:
     return pd.read_csv(PROCESSED_PATH, index_col="iso3")
+
+
+@st.cache_data(show_spinner="КЛАСТЕРИЗАЦИЯ ...")
+def get_clustered_df() -> pd.DataFrame:
+    """KMeans + label_clusters, cached for the session."""
+    import umap as umap_lib
+    from sklearn.preprocessing import StandardScaler
+
+    df = load_data()
+    df_km = run_kmeans(df, k_range=(4, 12), random_state=42)
+    df_labeled = label_clusters(df_km, cluster_col="cluster")
+
+    # UMAP 2-D embedding
+    meta_cols = {"country", "cluster", "cluster_hdbscan", "cluster_label",
+                 "umap_x", "umap_y"}
+    feature_cols = [
+        c for c in df_labeled.columns
+        if c not in meta_cols and pd.api.types.is_numeric_dtype(df_labeled[c])
+    ]
+    X = df_labeled[feature_cols].fillna(df_labeled[feature_cols].median()).values
+    X_scaled = StandardScaler().fit_transform(X)
+
+    reducer = umap_lib.UMAP(
+        n_components=2, n_neighbors=12, min_dist=0.25,
+        metric="euclidean", random_state=42,
+    )
+    emb = reducer.fit_transform(X_scaled)
+    df_labeled["umap_x"] = emb[:, 0]
+    df_labeled["umap_y"] = emb[:, 1]
+    return df_labeled
+
+
+def _build_cluster_scatter(df_c: pd.DataFrame) -> go.Figure:
+    """Interactive UMAP scatter coloured by cluster label."""
+    country_col = "country" if "country" in df_c.columns else df_c.index.name or "iso3"
+
+    def _hover(row: pd.Series) -> str:
+        name = row.get(country_col, row.name) if country_col in df_c.columns else row.name
+        ru   = COUNTRY_RU.get(str(name), "")
+        lines = [f"<b>{name}</b>{'  (' + ru + ')' if ru else ''}  [{row.name}]"]
+        for col, label in [
+            ("gdp_per_capita",       "ВВП"),
+            ("cost_of_living_index", "Стоимость жизни"),
+            ("safety_index",         "Безопасность"),
+            ("healthcare_index",     "Медицина"),
+        ]:
+            if col in row.index and pd.notna(row[col]):
+                lines.append(f"{label}: {row[col]:.2f}")
+        return "<br>".join(lines)
+
+    plot_df = df_c.copy()
+    plot_df["hover"]       = plot_df.apply(_hover, axis=1)
+    plot_df["iso3"]        = plot_df.index
+    plot_df["cluster_str"] = plot_df["cluster_label"].astype(str)
+    name_col = country_col if country_col in plot_df.columns else "iso3"
+
+    # Cyberpunk colour sequence (8 colours)
+    CP_COLORS = [
+        "#fcee0c", "#00f0ff", "#ff003c", "#a855f7",
+        "#22d3ee", "#f97316", "#4ade80", "#f43f5e",
+    ]
+
+    fig = px.scatter(
+        plot_df,
+        x="umap_x", y="umap_y",
+        color="cluster_str",
+        text=name_col,
+        hover_name=name_col,
+        hover_data={"hover": True, "umap_x": False, "umap_y": False, "cluster_str": False, "iso3": False},
+        labels={"cluster_str": "Кластер"},
+        color_discrete_sequence=CP_COLORS,
+        height=600,
+    )
+    fig.update_traces(
+        textposition="top center",
+        textfont=dict(size=8, color=C_TEXT),
+        marker=dict(size=9, opacity=0.9, line=dict(width=0.5, color="#08080f")),
+        hovertemplate="%{customdata[0]}<extra></extra>",
+    )
+    fig.update_layout(
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(8,8,15,0.8)",
+        font=dict(color=C_TEXT, family="Exo 2"),
+        legend=dict(
+            title_text="Кластер",
+            bgcolor="rgba(18,18,29,0.85)",
+            bordercolor=C_CYAN, borderwidth=1,
+            font_size=11,
+        ),
+        xaxis=dict(showgrid=False, showticklabels=False, zeroline=False, title=""),
+        yaxis=dict(showgrid=False, showticklabels=False, zeroline=False, title=""),
+        margin=dict(l=10, r=10, t=10, b=10),
+    )
+    return fig
 
 
 @st.cache_data(show_spinner="РАСЧЁТ РЕКОМЕНДАЦИЙ ...")
@@ -921,6 +1016,36 @@ def main() -> None:
             yaxis=dict(gridcolor="rgba(0,240,255,0.15)", color=C_CYAN),
         )
         st.plotly_chart(fig_w, use_container_width=True)
+
+    # ── cluster map ────────────────────────────────────────────────────────
+    st.markdown("---")
+    with st.expander("КЛАСТЕРЫ СТРАН (UMAP 2D)", expanded=False):
+        df_c = get_clustered_df()
+        n_clusters = df_c["cluster_label"].nunique()
+        st.markdown(
+            f"Все **{len(df_c)}** стран разбиты на **{n_clusters} кластера** методом KMeans "
+            f"(оптимальное K по Silhouette Score). Карта построена через UMAP — "
+            f"близкие точки похожи по экономике, безопасности, стоимости жизни и визовому режиму."
+        )
+        st.plotly_chart(_build_cluster_scatter(df_c), use_container_width=True)
+
+        # Таблица состава кластеров
+        st.markdown("#### СОСТАВ КЛАСТЕРОВ")
+        country_col = "country" if "country" in df_c.columns else None
+        for label in sorted(df_c["cluster_label"].unique()):
+            members = df_c[df_c["cluster_label"] == label]
+            iso3_list = members.index.tolist()
+            if country_col:
+                names = [
+                    f"{row[country_col]} ({COUNTRY_RU.get(row[country_col], '')})" if COUNTRY_RU.get(row[country_col]) else row[country_col]
+                    for _, row in members.iterrows()
+                ]
+            else:
+                names = iso3_list
+            st.markdown(
+                f"**{label}** — {len(iso3_list)} стран  \n"
+                + " · ".join(names)
+            )
 
 
 if __name__ == "__main__":
