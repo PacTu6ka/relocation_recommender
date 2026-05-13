@@ -1051,14 +1051,14 @@ def main() -> None:
 
         # ── метрики кластеризации ──────────────────────────────────────────
         mc1, mc2, mc3 = st.columns(3)
-        mc1.metric("КЛАСТЕРОВ (K)",        str(sil["k"]))
-        mc2.metric("SILHOUETTE SCORE",     f"{sil['score']:.4f}",
+        mc1.metric("КЛАСТЕРОВ (K)",    str(n_clusters))
+        mc2.metric("SILHOUETTE SCORE", f"{sil['score']:.4f}",
                    help="Диапазон: −1 … +1. Чем выше — тем плотнее кластеры и чётче границы между ними. Выше 0.25 считается хорошим результатом.")
-        mc3.metric("СТРАН В ВЫБОРКЕ",      str(sil["n"]))
+        mc3.metric("СТРАН В ВЫБОРКЕ", str(sil["n"]))
 
         st.markdown(
             f"Оптимальное K подобрано автоматически по максимальному Silhouette Score "
-            f"из диапазона 4–12. Карта построена через UMAP (23 признака → 2D) — "
+            f"из диапазона 4–8. Карта построена через UMAP (23 признака → 2D) — "
             f"близкие точки похожи по экономике, безопасности, стоимости жизни и визовому режиму."
         )
         st.plotly_chart(_build_cluster_scatter(df_c), use_container_width=True)
